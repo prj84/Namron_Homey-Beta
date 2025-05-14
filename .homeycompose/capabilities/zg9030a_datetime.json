@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Date"
+  },
+  "type": "string",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "sensor",
+  "units": {
+    "en": ""
+  },
+  "icon": "/assets/datetime.svg"
+}

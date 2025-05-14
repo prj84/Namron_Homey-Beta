@@ -1,0 +1,58 @@
+{
+  "name": {
+    "en": "4512725 - Z-Wave Plug Thermostat",
+    "no": "4512725 - Z-Wave Termostatplugg"
+  },
+  "class": "thermostat",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power",
+    "measure_temperature",
+    "target_temperature",
+    "my_device_operating_mode"
+  ],
+  "icon": "/drivers/4512725/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512725/assets/images/large.png",
+    "small": "/drivers/4512725/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      1080
+    ],
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53252,
+      53277
+    ],
+    "learnmode": {
+      "image": "/drivers/4512725/assets/learnmode.svg",
+      "instruction": {
+        "en": "(Re)Power on the smart plug, it will be set into pair mode automatically. You can also press the action button on the smart plug 3 times.\n\nIf pairing fails reset the device by press and hold down action button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Smart plug Factory Reset, send Command Class \"Device Reset Locally Notification CC\" to associated devices of this group to report factory reset information when factory reset the smart plug.\n2. Smart plug over current, over temperature, send Command Class \"NOTIFICATION_REPORT CC\" to associated devices of this group to report overload information.\n3. When smart plug state changes, send Command Class \"SWITCH_BINARY_REPORT CC\" to associated devices of this group to report state information.\n4. METER_REPORT\n5. Send SENSOR_MULTILEVEL_REPORT to report temperature\n6. Report when thermostat setpoint or mode changes"
+        }
+      }
+    }
+  }
+}

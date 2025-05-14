@@ -1,0 +1,108 @@
+{
+  "name": {
+    "en": "4512762 - ZigBee Door Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "alarm_battery",
+    "alarm_contact",
+    "alarm_tamper"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as"
+    ],
+    "productId": [
+      "4512762"
+    ],
+    "deviceId": [
+      1026
+    ],
+    "profileId": 260,
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          15,
+          16,
+          1026,
+          1029,
+          1030,
+          1280,
+          2821
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To Include, short press Config Button three times. If nothing happens, please factory reset the device by holding the Config button for 10 sec."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/4512762/assets/images/large.png",
+    "small": "/drivers/4512762/assets/images/small.png"
+  },
+  "settings": [
+    {
+      "id": "alarm_door_reset_window",
+      "type": "number",
+      "label": {
+        "en": "Disable door alarm after"
+      },
+      "hint": {
+        "en": "This setting will disable the door alarm after the given time (in seconds) has expired. Every time door is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]"
+      },
+      "value": 300,
+      "attr": {
+        "min": 60,
+        "max": 86400
+      }
+    },
+    {
+      "type": "group",
+      "label": {
+        "en": "Expert settings",
+        "nl": "Expert instellingen"
+      },
+      "collapsed": true,
+      "children": [
+        {
+          "id": "hacked_alarm_door_reset_window",
+          "type": "checkbox",
+          "value": false,
+          "label": {
+            "en": "Hacked sensor"
+          },
+          "hint": {
+            "en": "By soldering two contact points on the PCB it's possible to reduce the door blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds."
+          }
+        }
+      ]
+    }
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "regulatorMode",
+    "type": "checkbox",
+    "label": {
+      "en": "Regulator mode"
+    },
+    "value": false
+  },
+  {
+    "id": "regulatorCycleTime",
+    "type": "dropdown",
+    "label": {
+      "en": "Regulator period"
+    },
+    "value": "0",
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "30 minutes"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "60 minutes"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "90 minutes"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "120 minutes"
+        }
+      }
+    ]
+  }
+]

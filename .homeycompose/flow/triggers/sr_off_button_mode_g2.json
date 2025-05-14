@@ -1,0 +1,60 @@
+{
+  "title": {
+    "en": "Off button is pressed"
+  },
+  "titleFormatted": {
+    "en": "[[group]] off button is [[mode]]"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=4512719|4512720|4512729"
+    },
+    {
+      "name": "group",
+      "title": "Group",
+      "type": "dropdown",
+      "values": [
+        {
+          "id": "1",
+          "label": {
+            "en": "Group 1"
+          }
+        },
+        {
+          "id": "2",
+          "label": {
+            "en": "Group 2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "mode",
+      "title": "Mode",
+      "values": [
+        {
+          "id": "pressed",
+          "label": {
+            "en": "pressed"
+          }
+        },
+        {
+          "id": "held_down",
+          "label": {
+            "en": "held down"
+          }
+        },
+        {
+          "id": "released",
+          "label": {
+            "en": "released"
+          }
+        }
+      ]
+    }
+  ],
+  "id": "sr_off_button_mode_g2"
+}

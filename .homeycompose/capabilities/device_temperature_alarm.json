@@ -1,0 +1,13 @@
+{
+  "type": "string",
+  "title": {
+    "en": "Device Temp. Alarm"
+  },
+  "desc": {
+    "en": "Device Temperature Alarm"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "sensor",
+  "icon": "/assets/temperature_icon.svg"
+}

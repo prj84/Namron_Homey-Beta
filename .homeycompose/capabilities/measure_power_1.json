@@ -1,0 +1,27 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Power 1"
+  },
+  "units": {
+    "en": "W"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Power in watt (W)"
+  },
+  "options": {
+    "isApproximated": {
+      "type": "boolean",
+      "default": false,
+      "desc": {
+        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use."
+      }
+    }
+  },
+  "icon": "/assets/capabilities/measure_power.svg",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor"
+}

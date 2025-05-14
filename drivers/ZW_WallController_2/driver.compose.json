@@ -1,0 +1,64 @@
+{
+  "name": {
+    "en": "Wall controller - 2 button (Z-wave)"
+  },
+  "deprecated": true,
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/ZW_WallController_2/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZW_WallController_2/assets/images/large.png",
+    "small": "/drivers/ZW_WallController_2/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      41743
+    ],
+    "learnmode": {
+      "image": "/drivers/ZW_WallController_2/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press and hold down both buttons over 3 seconds.\n\nIf pairing fails reset the device by press and hold down both buttons for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Send Command Class Device Reset Locally Notification V1 to associated devices of this group to report factory reset information when factory reset the remote control.\n2. When remote control battery power value changes, send Command Class Battery Report V1 to associated devices of this group to report power value information.\n3. Short press or press and hold down any button to send scene activation command to the associated devices of this group using Command Class Central Scene Notification V3"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Short press on/off button to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n\nPress and hold down brightness button to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": {
+    "en": "4512744/45 - Z-Wave Thermostat Touch"
+  },
+  "class": "thermostat",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power",
+    "measure_temperature",
+    "target_temperature",
+    "my_4512744_thermostat_mode",
+    "my_ZV9092A_temperature_control_reference",
+    "my_ZV9092A_home_sensor",
+    "my_ZV9092A_floor_sensor"
+  ],
+  "icon": "/drivers/4512744/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512744/assets/images/large.png",
+    "small": "/drivers/4512744/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      1080
+    ],
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53267,
+      53285
+    ],
+    "learnmode": {
+      "image": "/drivers/4512744/assets/learnmode.svg",
+      "instruction": {
+        "en": "Turn the device to OFF mode first, then press and hold UP and DOWN buttons at the same time for over 5 seconds to enter Settings Menu.\n\nShort press UP and DOWN button to select ZWAVE SET item, then short press F button. First select Remove item until it is OK, then select Add item.\n\nIf pairing fails reset the device by select Reset item."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1.Send Command Class DEVICE_RESET_LOCALLY_NOTIFICATION to associated devices of this group when factory reset the device.\n2.Send Command Class THERMOSTAT_SETPOINT_REPORT, THERMOSTAT_MODE_REPORT, THERMOSTAT_OPERATING_STATE_REPORT to associated devices of this group When operation mode and temperature change.\n3.Send Command Class NOTIFICATION_REPORT to associated devices of this group when over current, over heat detected\n4.Send Command Class METER_REPORT to associated devices of this group to report metering parameters."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Transfer Command Class THERMOSTAT_SETPOINT_SET THERMOSTAT_MODE_SET\nto control other temperature control devices when operation changes"
+        }
+      }
+    }
+  }
+}

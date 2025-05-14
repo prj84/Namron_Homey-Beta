@@ -1,0 +1,44 @@
+{
+  "name": {
+    "en": "4512747 - Zigbee Curtain"
+  },
+  "class": "windowcoverings",
+  "capabilities": [
+    "windowcoverings_set",
+    "windowcoverings_state",
+    "windowcoverings_tilt_set"
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "/drivers/4512747/assets/images/small.png",
+    "large": "/drivers/4512747/assets/images/large.png"
+  },
+  "zigbee": {
+    "manufacturerName": "NAMRON AS",
+    "productId": [
+      "4512747"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6,
+          8,
+          258
+        ],
+        "bindings": []
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/4512747/assets/learnmode.svg",
+      "instruction": {
+        "en": "Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly.\n\nIf pairing fails reset the device. Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly."
+      }
+    }
+  }
+}

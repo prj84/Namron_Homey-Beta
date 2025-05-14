@@ -1,0 +1,52 @@
+{
+  "triggers": [
+    {
+      "id": "4512701_on",
+      "title": {
+        "en": "On"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512701_off",
+      "title": {
+        "en": "Off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512701_level_move_with_onoff",
+      "title": {
+        "en": "Move level"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512701_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level"
+      },
+      "deprecated": true,
+      "args": []
+    }
+  ]
+}

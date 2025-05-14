@@ -1,0 +1,28 @@
+{
+  "value": "0",
+  "label": {
+    "en": "Dim method"
+  },
+  "hint": {
+    "en": "This parameter determines if the dimmer uses linear or logarithmic dimming."
+  },
+  "zwave": {
+    "index": 6,
+    "size": 1
+  },
+  "values": [
+    {
+      "id": "0",
+      "label": {
+        "en": "Linear"
+      }
+    },
+    {
+      "id": "1",
+      "label": {
+        "en": "Logarithmic"
+      }
+    }
+  ],
+  "type": "dropdown"
+}

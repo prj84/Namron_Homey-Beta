@@ -1,0 +1,55 @@
+{
+  "name": {
+    "en": "Wall plug - Actuator (Z-wave)"
+  },
+  "deprecated": true,
+  "class": "socket",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power"
+  ],
+  "icon": "/drivers/ZW_WallPlug/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZW_WallPlug/assets/images/large.png",
+    "small": "/drivers/ZW_WallPlug/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      513
+    ],
+    "productId": [
+      53252
+    ],
+    "learnmode": {
+      "image": "/drivers/ZW_WallPlug/assets/learnmode.svg",
+      "instruction": {
+        "en": "(Re)Power on the smart plug, it will be set into pair mode automatically. You can also press the action button on the smart plug 3 times.\n\nIf pairing fails reset the device by press and hold down action button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Smart plug Factory Reset, send Command Class Device Reset Locally Notification CC to associated devices of this group to report factory reset information when factory reset the smart plug.\n\n2. Smart plug overloads, send Command Class NOTIFICATION_REPORT CC to associated devices of this group to report overload information.\n\n3. When smart plug state changes, send Command Class SWITCH_BINARY_REPORT CC to associated devices of this group to report state information.\n\n4. METER_ REPORT"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": {
+    "en": "Brightness button is pressed"
+  },
+  "titleFormatted": {
+    "en": "Brightness [[type]] button is [[mode]]"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=4512702|4512713"
+    },
+    {
+      "type": "dropdown",
+      "name": "type",
+      "title": "Button type",
+      "values": [
+        {
+          "id": "up",
+          "label": {
+            "en": "up"
+          }
+        },
+        {
+          "id": "down",
+          "label": {
+            "en": "down"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "mode",
+      "title": "Mode",
+      "values": [
+        {
+          "id": "pressed",
+          "label": {
+            "en": "pressed"
+          }
+        },
+        {
+          "id": "held_down",
+          "label": {
+            "en": "held down"
+          }
+        },
+        {
+          "id": "released",
+          "label": {
+            "en": "released"
+          }
+        }
+      ]
+    }
+  ],
+  "id": "sr_brightness_type_button_mode"
+}

@@ -1,0 +1,107 @@
+{
+  "name": {
+    "en": "4512768 - Zigbee 2 way Switch"
+  },
+  "class": "socket",
+  "capabilities": [],
+  "capabilitiesOptions": {
+    "button.calibrate": {
+      "maintenanceAction": false,
+      "title": {
+        "en": "Calibration mode"
+      },
+      "desc": {
+        "en": "Calibration mode status: Required not equal to 9"
+      }
+    }
+  },
+  "images": {
+    "small": "/drivers/4512768/assets/images/small.png",
+    "large": "/drivers/4512768/assets/images/large.png"
+  },
+  "energy": {
+    "approximation": {
+      "usageOn": 0,
+      "usageOff": 0
+    }
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "Namron as",
+      "Namron AS"
+    ],
+    "productId": [
+      "4512768"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          6,
+          32,
+          1794,
+          2820
+        ],
+        "bindings": [
+          0,
+          32768,
+          6,
+          1794,
+          2820
+        ]
+      },
+      "2": {
+        "clusters": [
+          0,
+          1,
+          6,
+          32,
+          1794,
+          2820
+        ],
+        "bindings": [
+          0,
+          32768,
+          6,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "to include, Press button1 or button 2 once and long press second time for over 3s to join the network."
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [],
+  "settings": [
+    {
+      "id": "app_version",
+      "type": "label",
+      "label": {
+        "en": "App version"
+      },
+      "value": "v1.0.2304.1",
+      "hint": {
+        "en": "App version."
+      }
+    },
+    {
+      "id": "swmode",
+      "type": "label",
+      "label": {
+        "en": "Device mode"
+      },
+      "value": " - ",
+      "hint": {
+        "en": "Device current mode"
+      }
+    }
+  ]
+}

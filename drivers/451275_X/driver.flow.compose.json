@@ -1,0 +1,58 @@
+{
+  "triggers": [
+    {
+      "id": "trigger_frost_turned_on",
+      "title": {
+        "en": "It frost turned ON "
+      }
+    },
+    {
+      "id": "trigger_frost_turned_off",
+      "title": {
+        "en": "It frost turned OFF"
+      }
+    },
+    {
+      "id": "trigger_regulator_percentage",
+      "title": {
+        "en": "It regulator_percentage turned ON"
+      }
+    }
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "id": "turned_on_frost",
+      "title": {
+        "en": "Turned on frost"
+      }
+    },
+    {
+      "id": "turned_off_frost",
+      "title": {
+        "en": "Turned off frost"
+      }
+    },
+    {
+      "id": "set_regulator_percentage",
+      "title": {
+        "en": "Set regulator percentage"
+      },
+      "titleFormatted": {
+        "en": "Set regulator [[number]]%"
+      },
+      "args": [
+        {
+          "name": "number",
+          "type": "number",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "title": {
+            "en": "percentage"
+          }
+        }
+      ]
+    }
+  ]
+}

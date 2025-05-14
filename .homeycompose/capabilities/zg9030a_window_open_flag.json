@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Window open flag"
+  },
+  "type": "string",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "sensor",
+  "units": {
+    "en": ""
+  },
+  "icon": "/assets/window_open_check.svg"
+}

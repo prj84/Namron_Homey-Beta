@@ -1,0 +1,17 @@
+[   
+  {
+    "id": "app_version",
+    "type": "label",
+    "label": { "en": "App version" },
+    "value": "v1.0.2304.1",
+    "hint": { "en": "App version." }
+  },
+  {
+    "id": "swmode",
+    "type": "label",
+    "label": { "en": "Device mode" },
+    "value": " - ",
+    "hint": { "en": "Device current mode" }
+  }
+]
+ 

@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Thermostat mode changed",
+    "no": "Termostatmodus endret"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    }
+  ],
+  "tokens": [
+    {
+      "name": "tuya_thermostat_mode",
+      "type": "number",
+      "title": {
+        "en": "Thermostat mode",
+        "no": "Termostat modus"
+      }
+    }
+  ]
+}

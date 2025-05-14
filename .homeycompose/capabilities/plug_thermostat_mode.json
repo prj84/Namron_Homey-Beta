@@ -1,0 +1,29 @@
+{
+  "title": {
+    "en": "Thermostat Mode"
+  },
+  "type": "enum",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      }
+    },
+    {
+      "id": "heat",
+      "title": {
+        "en": "Heat"
+      }
+    },
+    {
+      "id": "sleep",
+      "title": {
+        "en": "Sleep"
+      }
+    }
+  ]
+}

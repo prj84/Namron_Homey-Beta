@@ -1,0 +1,172 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "Off button is pressed"
+      },
+      "titleFormatted": {
+        "en": "Off button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_off_button_mode"
+    },
+    {
+      "title": {
+        "en": "On button is pressed"
+      },
+      "titleFormatted": {
+        "en": "On button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_on_button_mode"
+    },
+    {
+      "id": "4512713_on",
+      "title": {
+        "en": "On"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_off",
+      "title": {
+        "en": "Off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_on_key_held_down",
+      "title": {
+        "en": "On button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_on_key_released",
+      "title": {
+        "en": "On button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_off_key_held_down",
+      "title": {
+        "en": "Off button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_off_key_released",
+      "title": {
+        "en": "Off button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_up",
+      "title": {
+        "en": "Level up button pressed 1 time"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_down",
+      "title": {
+        "en": "Level down button pressed 1 time"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_up_key_held_down",
+      "title": {
+        "en": "Level up button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_up_key_released",
+      "title": {
+        "en": "Level up button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_down_key_held_down",
+      "title": {
+        "en": "Level down button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512713_level_down_key_released",
+      "title": {
+        "en": "Level down button released"
+      },
+      "deprecated": true,
+      "args": []
+    }
+  ]
+}

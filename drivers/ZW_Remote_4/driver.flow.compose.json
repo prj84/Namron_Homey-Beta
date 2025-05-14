@@ -1,0 +1,340 @@
+{
+  "triggers": [
+    {
+      "id": "ZW_Remote_4_all_on",
+      "title": {
+        "en": "All on"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_all_off",
+      "title": {
+        "en": "All off"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_all_on_key_held_down",
+      "title": {
+        "en": "All on button held down"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_all_on_key_released",
+      "title": {
+        "en": "All on button released"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_all_off_key_held_down",
+      "title": {
+        "en": "All off button held down"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_all_off_key_released",
+      "title": {
+        "en": "All off button released"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_on_key_held_down",
+      "title": {
+        "en": "On button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button held down"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_on_key_released",
+      "title": {
+        "en": "On button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button released"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_off_key_held_down",
+      "title": {
+        "en": "Off button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button held down"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_off_key_released",
+      "title": {
+        "en": "Off button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button released"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_Remote_4_scene_1",
+      "title": {
+        "en": "S1"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_scene_2",
+      "title": {
+        "en": "S2"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_scene_1_key_held_down",
+      "title": {
+        "en": "S1 button held down"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_scene_1_key_released",
+      "title": {
+        "en": "S1 button released"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_scene_2_key_held_down",
+      "title": {
+        "en": "S2 button held down"
+      },
+      "args": []
+    },
+    {
+      "id": "ZW_Remote_4_scene_2_key_released",
+      "title": {
+        "en": "S2 button released"
+      },
+      "args": []
+    }
+  ]
+}

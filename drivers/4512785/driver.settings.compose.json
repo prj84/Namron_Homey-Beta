@@ -1,0 +1,427 @@
+[
+    {
+        "type": "group",
+        "label": {
+            "en": "Condition Alarm Automation"
+        },
+        "children": [
+            {
+                "id": "condition_alarm_relay_action",
+                "label": {
+                    "en": "Condition alarm action"
+                },
+                "hint": {
+                    "en": "Turn on/off relay, when condition alarm."
+                },
+                "type": "dropdown",
+                "value": "conditionNoAction",
+                "values": [
+                    {
+                        "id": "ConditionAlarmTurnOff",
+                        "label": {
+                            "en": "if Condition Alarm -> Turn off Relay -> Turn on again if No Condition Alarm"
+                        }
+                    },
+                    {
+                        "id": "ConditionAlarmTurnOn",
+                        "label": {
+                            "en": "if Condition Alarm -> Turn on Relay -> Turn off again if No Condition Alarm"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "OverrideOption",
+                "label": {
+                    "en": "Priority"
+                },
+                "type": "dropdown",
+                "value": "NoPriority",
+                "values": [
+                    {
+                        "id": "NoPriority",
+                        "label": {
+                            "en": "No Priority"
+                        }
+                    },
+                    {
+                        "id": "WaterAlarmPriority",
+                        "label": {
+                            "en": "Water Alarm Priority"
+                        }
+                    },
+                    {
+                        "id": "NTCPriority",
+                        "label": {
+                            "en": "NTC Priority"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": {
+            "en": "Water Alarm Automation"
+        },
+        "children": [
+            {
+                "id": "water_alarm_relay_action",
+                "label": {
+                    "en": "Water alarm action"
+                },
+                "hint": {
+                    "en": "Turn on/off relay, when water alarm."
+                },
+                "type": "dropdown",
+                "value": "noAction",
+                "values": [
+                    {
+                        "id": "noAction",
+                        "label": {
+                            "en": "No action"
+                        }
+                    },
+                    {
+                        "id": "AlarmTurnOff",
+                        "label": {
+                            "en": "if Water Alarm -> Turn off Relay -> Turn on again if No Water Alarm"
+                        }
+                    },
+                    {
+                        "id": "AlarmTurnOn",
+                        "label": {
+                            "en": "if Water Alarm -> Turn on Relay -> Turn off again if No Water Alarm"
+                        }
+                    },
+                    {
+                        "id": "AlarmTurnOffNoAction",
+                        "label": {
+                            "en": "if Water Alarm -> Turn off Relay -> no action"
+                        }
+                    },
+                    {
+                        "id": "AlarmTurnOnNoAction",
+                        "label": {
+                            "en": "if Water Alarm -> Turn on Relay -> no action"
+                        }
+                    },
+                    {
+                        "id": "NoAlarmTurnOff",
+                        "label": {
+                            "en": "if No Water Alarm -> Turn off Relay -> no action"
+                        }
+                    },
+                    {
+                        "id": "NoAlarmTurnOn",
+                        "label": {
+                            "en": "if No Water Alarm -> Turn on Relay -> no action"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": {
+            "en": "NTC1"
+        },
+        "children": [
+            {
+                "id": "ntc1OperationSelect",
+                "label": {
+                    "en": "NTC1 Auto Operation"
+                },
+                "type": "dropdown",
+                "value": "unuse",
+                "values": [
+                    {
+                        "id": "unuse",
+                        "label": {
+                            "en": "No action"
+                        }
+                    },
+                    {
+                        "id": "ntc1_1",
+                        "label": {
+                            "en": "NTC1 -> Off if higher -> On if under again"
+                        }
+                    },
+                    {
+                        "id": "ntc1_2",
+                        "label": {
+                            "en": "NTC1 -> On if higher -> Off if under again"
+                        }
+                    },
+                    {
+                        "id": "ntc1_3",
+                        "label": {
+                            "en": "NTC1 -> Off if higher -> If under again, no action"
+                        }
+                    },
+                    {
+                        "id": "ntc1_4",
+                        "label": {
+                            "en": "NTC1 -> On if higher -> If under again, no action"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ntc1RelayAutoTemp",
+                "label": {
+                    "en": "NTC1 Auto Temp"
+                },
+                "hint": {
+                    "en": "The default value is 30."
+                },
+                "type": "number",
+                "value": 30,
+                "min": 0,
+                "max": 100,
+                "step": 0.5,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "NTCCalibration1",
+                "label": {
+                    "en": "NTC1 Calibration"
+                },
+                "type": "number",
+                "value": 0,
+                "min": -100,
+                "max": 100,
+                "step": 1,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "ntc1TempHysterisis",
+                "label": {
+                    "en": "NTC1 Temp Hysterisis"
+                },
+                "type": "number",
+                "value": 30,
+                "min": -100,
+                "max": 100,
+                "step": 1,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "resistance_value_1",
+                "label": {
+                    "en": "1.Support floor sensor type"
+                },
+                "type": "dropdown",
+                "value": "r0",
+                "values": [
+                    {
+                        "id": "r0",
+                        "label": {
+                            "en": "No sensor attached"
+                        }
+                    },
+                    {
+                        "id": "r1",
+                        "label": {
+                            "en": "NTC-10K "
+                        }
+                    },
+                    {
+                        "id": "r2",
+                        "label": {
+                            "en": "NTC-12K "
+                        }
+                    },
+                    {
+                        "id": "r3",
+                        "label": {
+                            "en": "NTC-15K "
+                        }
+                    },
+                    {
+                        "id": "r4",
+                        "label": {
+                            "en": "NTC-22K "
+                        }
+                    },
+                    {
+                        "id": "r5",
+                        "label": {
+                            "en": "NTC-33K "
+                        }
+                    },
+                    {
+                        "id": "r6",
+                        "label": {
+                            "en": "NTC-47K "
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": {
+            "en": "NTC2"
+        },
+        "children": [
+            {
+                "id": "ntc2OperationSelect",
+                "label": {
+                    "en": "NTC2 Auto Operation"
+                },
+                "type": "dropdown",
+                "value": "unuse",
+                "values": [
+                    {
+                        "id": "unuse",
+                        "label": {
+                            "en": "No action"
+                        }
+                    },
+                    {
+                        "id": "ntc2_1",
+                        "label": {
+                            "en": "NTC2 -> Off if higher -> On if under again"
+                        }
+                    },
+                    {
+                        "id": "ntc2_2",
+                        "label": {
+                            "en": "NTC2 -> On if higher -> Off if under again"
+                        }
+                    },
+                    {
+                        "id": "ntc2_3",
+                        "label": {
+                            "en": "NTC2 -> Off if higher -> If under again, no action"
+                        }
+                    },
+                    {
+                        "id": "ntc2_4",
+                        "label": {
+                            "en": "NTC2 -> On if higher -> If under again, no action"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ntc2RelayAutoTemp",
+                "label": {
+                    "en": "NTC2 Auto Temp"
+                },
+                "hint": {
+                    "en": "The default value is 30."
+                },
+                "type": "number",
+                "value": 30,
+                "min": 0,
+                "max": 100,
+                "step": 0.5,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "NTCCalibration2",
+                "label": {
+                    "en": "NTC2 Calibration"
+                },
+                "type": "number",
+                "value": 0,
+                "min": -100,
+                "max": 100,
+                "step": 1,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "ntc2TempHysterisis",
+                "label": {
+                    "en": "NTC2 Temp Hysterisis"
+                },
+                "type": "number",
+                "value": 30,
+                "min": -100,
+                "max": 100,
+                "step": 1,
+                "units": {
+                    "en": "°c"
+                }
+            },
+            {
+                "id": "resistance_value_2",
+                "label": {
+                    "en": "2.Support floor sensor type"
+                },
+                "type": "dropdown",
+                "value": "r0",
+                "values": [
+                    {
+                        "id": "r0",
+                        "label": {
+                            "en": "No sensor attached"
+                        }
+                    },
+                    {
+                        "id": "r1",
+                        "label": {
+                            "en": "NTC-10K "
+                        }
+                    },
+                    {
+                        "id": "r2",
+                        "label": {
+                            "en": "NTC-12K "
+                        }
+                    },
+                    {
+                        "id": "r3",
+                        "label": {
+                            "en": "NTC-15K "
+                        }
+                    },
+                    {
+                        "id": "r4",
+                        "label": {
+                            "en": "NTC-22K "
+                        }
+                    },
+                    {
+                        "id": "r5",
+                        "label": {
+                            "en": "NTC-33K "
+                        }
+                    },
+                    {
+                        "id": "r6",
+                        "label": {
+                            "en": "NTC-47K "
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "app_version",
+        "type": "label",
+        "label": {
+            "en": "App version"
+        },
+        "value": "1.0.30315.630",
+        "hint": {
+            "en": "App version"
+        }
+    }
+]

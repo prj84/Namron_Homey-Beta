@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dry_cooking_temp_threshold",
+    "type": "number",
+    "label": {
+      "en": "Dry cooking temperature threshold",
+      "no": "Tørrkokingstemperaturterskel"
+    },
+    "value": 50,
+    "min": 45,
+    "max": 150,
+    "units": {
+      "en": "°C",
+      "no": "°C"
+    }
+  },
+  {
+    "id": "dry_cooking_time_threshold",
+    "type": "number",
+    "label": {
+      "en": "Dry cooking time threshold",
+      "no": "Tørrkoketidsterskel"
+    },
+    "value": 30,
+    "min": 30,
+    "max": 150,
+    "units": {
+      "en": "minutes",
+      "no": "minutter"
+    }
+  }
+]

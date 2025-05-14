@@ -1,0 +1,36 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Window open flag"
+  },
+  "desc": {
+    "en": "Window open flag"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Window is open"
+  },
+  "insightsTitleFalse": {
+    "en": "Window is closed"
+  },
+  "getable": true,
+  "setable": false,
+  "values": [
+    {
+      "id": "closed",
+      "title": {
+        "en": "Closed",
+        "zh": "门关闭的"
+      }
+    },
+    {
+      "id": "opened",
+      "title": {
+        "en": "Opened",
+        "zh": "门打开的"
+      }
+    }
+  ],
+  "uiComponent": "sensor",
+  "icon": "/assets/window_open_check.svg"
+}

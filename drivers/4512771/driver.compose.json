@@ -1,0 +1,96 @@
+{
+  "name": {
+    "en": "4512770/71 - ZigBee MultiSensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "alarm_battery",
+    "alarm_motion",
+    "measure_temperature",
+    "measure_humidity",
+    "measure_luminance"
+  ],
+  "energy": {
+    "batteries": [
+      "AAA",
+      "AAA"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as"
+    ],
+    "productId": [
+      "4512770",
+      "4512771"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          1030
+        ],
+        "bindings": [
+          1,
+          1030
+        ]
+      },
+      "2": {
+        "clusters": [
+          1280
+        ],
+        "bindings": [
+          1280
+        ]
+      },
+      "3": {
+        "clusters": [
+          1026
+        ],
+        "bindings": [
+          1026
+        ]
+      },
+      "4": {
+        "clusters": [
+          1029
+        ],
+        "bindings": [
+          1029
+        ]
+      },
+      "5": {
+        "clusters": [
+          1024
+        ],
+        "bindings": [
+          1024
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "Remove the back cover, and then short press the Prog button 3 times quickly.\n\nIf pairing fails reset the device. Press and hold down the Prog button for over 10 seconds, and then short press the Prog button 3 times quickly."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/4512771/assets/images/large.png",
+    "small": "/drivers/4512771/assets/images/small.png"
+  },
+  "settings": [],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": {
+    "en": "4512748 - Z-Wave Curtain"
+  },
+  "class": "windowcoverings",
+  "capabilities": [
+    "windowcoverings_set"
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "/drivers/4512748/assets/images/small.png",
+    "large": "/drivers/4512748/assets/images/large.png"
+  },
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      1080
+    ],
+    "productTypeId": [
+      4
+    ],
+    "productId": [
+      53261
+    ],
+    "learnmode": {
+      "image": "/drivers/4512748/assets/learnmode.svg",
+      "instruction": {
+        "en": "Triple press the K2 button on the device."
+      }
+    }
+  }
+}

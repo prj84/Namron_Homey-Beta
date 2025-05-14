@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Internal over heat"
+  },
+  "type": "string",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "sensor",
+  "units": {
+    "en": ""
+  },
+  "icon": "/assets/internal_over_heat.svg"
+}

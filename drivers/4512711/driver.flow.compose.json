@@ -1,0 +1,485 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "All off button is pressed"
+      },
+      "titleFormatted": {
+        "en": "All off button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_all_off_button_mode"
+    },
+    {
+      "title": {
+        "en": "All on button is pressed"
+      },
+      "titleFormatted": {
+        "en": "All on button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_all_on_button_mode"
+    },
+    {
+      "title": {
+        "en": "Scene button is pressed"
+      },
+      "titleFormatted": {
+        "en": "Scene button [[scene]] is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "scene",
+          "title": "Scene button type",
+          "values": [
+            {
+              "id": "s1",
+              "label": {
+                "en": "S1"
+              }
+            },
+            {
+              "id": "s2",
+              "label": {
+                "en": "S2"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_scene_button_mode_s2"
+    },
+    {
+      "id": "4512711_all_on",
+      "title": {
+        "en": "All on"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_all_off",
+      "title": {
+        "en": "All off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_all_on_key_held_down",
+      "title": {
+        "en": "All on button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_all_on_key_released",
+      "title": {
+        "en": "All on button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_all_off_key_held_down",
+      "title": {
+        "en": "All off button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_all_off_key_released",
+      "title": {
+        "en": "All off button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_on_key_held_down",
+      "title": {
+        "en": "On button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button held down"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_on_key_released",
+      "title": {
+        "en": "On button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button released"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_off_key_held_down",
+      "title": {
+        "en": "Off button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button held down"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_off_key_released",
+      "title": {
+        "en": "Off button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button released"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512711_scene_1",
+      "title": {
+        "en": "S1"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_scene_2",
+      "title": {
+        "en": "S2"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_scene_1_key_held_down",
+      "title": {
+        "en": "S1 button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_scene_1_key_released",
+      "title": {
+        "en": "S1 button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_scene_2_key_held_down",
+      "title": {
+        "en": "S2 button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512711_scene_2_key_released",
+      "title": {
+        "en": "S2 button released"
+      },
+      "deprecated": true,
+      "args": []
+    }
+  ]
+}

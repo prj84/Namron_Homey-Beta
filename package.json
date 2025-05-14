@@ -1,0 +1,41 @@
+{
+  "name": "net.filllip-namron",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "app:lint": "run-s app:lint:ts app:lint:homey",
+    "app:lint:ts": "eslint --ext .ts .",
+    "app:lint:homey": "homey app validate --level=verified",
+    "app:fix": "run-s app:fix:ts",
+    "app:fix:ts": "eslint --fix  --ext .ts .",
+    "app:build": "homey app build",
+    "app:run": "homey app run",
+    "app:install": "homey app install",
+    "app:publish": "homey app publish"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.3",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@0.3.5",
+    "@types/node": "16.18.67",
+    "@types/source-map-support": "0.5.10",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.7",
+    "colors": "1.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-athom": "2.1.1",
+    "homey": "^2.0.7",
+    "npm-run-all": "4.1.5",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "help": "^3.0.2",
+    "homey-log": "^2.1.0",
+    "homey-zigbeedriver": "^2.1.4",
+    "homey-zwavedriver": "^2.1.10",
+    "moment-timezone": "^0.5.34",
+    "silly-datetime": "^0.1.2",
+    "source-map-support": "0.5.21",
+    "zigbee-clusters": "^2.4.0"
+  }
+}

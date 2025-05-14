@@ -1,0 +1,48 @@
+{
+  "title": {
+    "en": "Change sensor type",
+    "no": "Endre sensor type"
+  },
+  "titleFormatted": {
+    "en": "Set type to [[type]]",
+    "no": "Sett type til [[type]]"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    },
+    {
+      "name": "type",
+      "type": "dropdown",
+      "title": {
+        "en": "Sensor type",
+        "no": "Sensor type"
+      },
+      "values": [
+        {
+          "id": "0",
+          "title": {
+            "en": "Air sensor",
+            "no": "Luftføler / Intern"
+          }
+        },
+        {
+          "id": "1",
+          "title": {
+            "en": "Floor sensor",
+            "no": "Gulvføler / Ekstern"
+          }
+        },
+        {
+          "id": "2",
+          "title": {
+            "en": "Max guard",
+            "no": "Maksvokter"
+          }
+        }
+      ]
+    }
+  ]
+}

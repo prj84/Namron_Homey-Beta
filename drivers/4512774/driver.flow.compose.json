@@ -1,0 +1,268 @@
+{
+  "triggers": [
+    {
+      "id": "ZV9001NK8_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZV9001NK8_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZV9001NK8_on_key_held_down",
+      "title": {
+        "en": "On (Key held down)"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on (Key held down)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZV9001NK8_on_key_released",
+      "title": {
+        "en": "On (Key released)"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on (Key released)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZV9001NK8_off_key_held_down",
+      "title": {
+        "en": "Off (Key held down)"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off (Key held down)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZV9001NK8_off_key_released",
+      "title": {
+        "en": "Off (Key released)"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off (Key released)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

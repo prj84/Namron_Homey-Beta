@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Plug Mode"
+  },
+  "type": "enum",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "onOff",
+      "title": {
+        "en": "Plug"
+      }
+    },
+    {
+      "id": "hvac",
+      "title": {
+        "en": "Thermostat"
+      }
+    }
+  ]
+}

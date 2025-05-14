@@ -1,0 +1,62 @@
+{
+  "name": {
+    "en": "4512761 - Zigbee Switch"
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power"
+  ],
+  "capabilitiesOptions": {},
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as",
+      "Namron  AS"
+    ],
+    "productId": [
+      "4512761"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/4512761/assets/learnmode.svg",
+      "instruction": {
+        "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/4512761/assets/images/large.png",
+    "small": "/drivers/4512761/assets/images/small.png"
+  },
+  "settings": []
+}

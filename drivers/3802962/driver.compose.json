@@ -1,0 +1,90 @@
+{
+  "name": {
+    "en": "3802962 - E27 Color"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "light_hue",
+    "light_saturation",
+    "light_temperature"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_hue": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_saturation": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_temperature": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": false
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as",
+      "Namron  AS",
+      "LDS"
+    ],
+    "productId": [
+      "3802962"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          768,
+          2821,
+          4096
+        ],
+        "bindings": [
+          6,
+          8
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/3802962/assets/learnmode.svg",
+      "instruction": {
+        "en": "Toggle the light from Off to On. \n\nIf pairing does not start after 20 seconds, reset the the device by turning it off and on 6 times with 0.5-2 second intervals. "
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/3802962/assets/images/large.png",
+    "small": "/drivers/3802962/assets/images/small.png"
+  },
+  "settings": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": {
+    "en": "Dimmer - 3 wire (Z-wave)",
+    "nl": "Inbouwdimmer 3-draads (Z-wave)"
+  },
+  "deprecated": true,
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "setOnDim": false
+    },
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    }
+  },
+  "energy": {
+    "approximation": {
+      "usageOn": 400,
+      "usageOff": 0
+    }
+  },
+  "icon": "/drivers/ZW_Dimmer_3wire/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZW_Dimmer_3wire/assets/images/large.png",
+    "small": "/drivers/ZW_Dimmer_3wire/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53253
+    ],
+    "learnmode": {
+      "image": "/drivers/ZW_Dimmer_3wire/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button 3 times quickly.\n\nIf pairing fails reset the device by pressing the Reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  }
+}

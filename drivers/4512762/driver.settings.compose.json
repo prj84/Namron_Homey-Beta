@@ -1,0 +1,38 @@
+[
+    {
+      "id": "alarm_door_reset_window",
+      "type": "number",
+      "label": {
+        "en": "Disable door alarm after"
+      },
+      "hint": {
+        "en": "This setting will disable the door alarm after the given time (in seconds) has expired. Every time door is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]"
+      },
+      "value": 300,
+      "attr": {
+        "min": 60,
+        "max": 86400
+      }
+    },
+    {
+      "type": "group",
+      "label": {
+        "en": "Expert settings",
+        "nl": "Expert instellingen"
+      },
+      "collapsed": true,
+      "children": [
+        {
+          "id": "hacked_alarm_door_reset_window",
+          "type": "checkbox",
+          "value": false,
+          "label": {
+            "en": "Hacked sensor"
+          },
+          "hint": {
+            "en": "By soldering two contact points on the PCB it's possible to reduce the door blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds."
+          }
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "working_mode",
+    "type": "number",
+    "label": {
+      "en": "Working mode"
+    },
+    "value": 2,
+    "attr": {
+      "min": 0,
+      "max": 2
+    },
+    "hint": {
+      "en": "0: light mode.\n1: Shutter mode without positioning.\n2: Shutter mode with positioning."
+    },
+    "zwave": {
+      "index": 3,
+      "size": 1
+    }
+  },
+  {
+    "id": "slats_rotation_time",
+    "type": "number",
+    "label": {
+      "en": "Slats rotation time"
+    },
+    "value": 0,
+    "attr": {
+      "min": 0,
+      "max": 127
+    },
+    "hint": {
+      "en": "0: disable the function.\n5-127 (0.5S-12.7S): value of the slats rotation time, unit is 0.1S.\nThis parameter is only valid when working mode is shutter mode with positioning."
+    },
+    "zwave": {
+      "index": 13,
+      "size": 1
+    }
+  }
+]

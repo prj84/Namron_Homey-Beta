@@ -1,0 +1,70 @@
+{
+  "name": {
+    "en": "4512766/67 - Zigbee Smart Plug 16A"
+  },
+  "class": "socket",
+  "capabilities": [],
+  "images": {
+    "small": "/drivers/451276x/assets/images/small.png",
+    "large": "/drivers/451276x/assets/images/large.png"
+  },
+  "energy": {
+    "approximation": {
+      "usageOn": 0,
+      "usageOff": 0
+    }
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "Namron AS"
+    ],
+    "productId": [
+      "4512766",
+      "4512767"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          2,
+          6,
+          32,
+          2820,
+          1794
+        ],
+        "bindings": [
+          0,
+          2,
+          6,
+          2820,
+          1794
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To Include, long press for 10 seconds to join the network."
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "settings": [
+    {
+      "id": "app_version",
+      "type": "label",
+      "label": {
+        "en": "App version"
+      },
+      "value": "v1.0.2211.1210",
+      "hint": {
+        "en": "App version."
+      }
+    }
+  ]
+}

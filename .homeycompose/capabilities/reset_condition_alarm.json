@@ -1,0 +1,7 @@
+{
+    "type": "boolean",
+    "title": { "en": "Reset Condition Alert" },
+    "getable": true,
+    "setable": true,
+    "uiComponent": "button"
+}

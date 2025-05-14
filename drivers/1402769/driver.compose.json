@@ -1,0 +1,72 @@
+{
+  "name": {
+    "en": "1402769 - Zigbee Vridimmer"
+  },
+  "class": "light",
+  "capabilities": [],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": true
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "isApproximated": true
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as",
+      "HZC",
+      "Shyugj"
+    ],
+    "productId": [
+      "1402769",
+      "D693-ZG"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "bindings": [
+          6,
+          8
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/1402769/assets/learnmode.svg",
+      "instruction": {
+        "en": "Double press the reset button.\n\nIf pairing does not start after 20 seconds, reset the device by press and hold reset button for over 5 seconds."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/1402769/assets/images/large.png",
+    "small": "/drivers/1402769/assets/images/small.png"
+  },
+  "settings": []
+}

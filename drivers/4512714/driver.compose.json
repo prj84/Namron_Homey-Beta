@@ -1,0 +1,81 @@
+{
+  "name": {
+    "en": "4512714/22 - Z-Wave 4 Channel"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/4512714/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512714/assets/images/large.png",
+    "small": "/drivers/4512714/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      41733
+    ],
+    "learnmode": {
+      "image": "/drivers/4512714/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press and hold down both I and O buttons over 3 seconds.\n\nIf pairing is not started press and hold down both buttons I and O for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Send Command Class Device Reset Locally Notification V1 to associated devices of this group to report factory reset information when factory reset the remote control.\n2. When remote control battery power value changes, send Command Class Battery Report V1 to associated devices of this group to report power value information.\n3. Short press or press and hold down any button to send scene activation command to the associated devices of this group using Command Class Central Scene Notification V3"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Short press I/O button of Group 2 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\nPress and hold down I/O button of Group 2 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Short press I/O button of Group 3 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\nPress and hold down I/O button of Group 3 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Short press I/O button of Group 4 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\nPress and hold down I/O button of Group 4 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "Short press I/O button of Group 5 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\nPress and hold down I/O button of Group 5 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      }
+    }
+  }
+}

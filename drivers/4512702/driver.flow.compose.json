@@ -1,0 +1,103 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "Off button is pressed"
+      },
+      "titleFormatted": {
+        "en": "Off button is pressed"
+      },
+      "args": [],
+      "id": "sr_off_button_pressed"
+    },
+    {
+      "title": {
+        "en": "On button is pressed"
+      },
+      "titleFormatted": {
+        "en": "On button is pressed"
+      },
+      "args": [],
+      "id": "sr_on_button_pressed"
+    },
+    {
+      "id": "4512702_on",
+      "title": {
+        "en": "On"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512702_off",
+      "title": {
+        "en": "Off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512702_level_step_with_onoff",
+      "title": {
+        "en": "Step level"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "mode",
+          "type": "number",
+          "title": {
+            "en": "Mode"
+          }
+        },
+        {
+          "name": "step_size",
+          "type": "number",
+          "title": {
+            "en": "Step size"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512702_level_move_with_onoff",
+      "title": {
+        "en": "Move level"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512702_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level"
+      },
+      "deprecated": true,
+      "args": []
+    }
+  ]
+}

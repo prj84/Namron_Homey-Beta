@@ -1,0 +1,13 @@
+{
+  "type": "string",
+  "title": {
+    "en": "Voltage 2"
+  },
+  "desc": {
+    "en": "Rms current voltage"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/voltage.svg"
+}

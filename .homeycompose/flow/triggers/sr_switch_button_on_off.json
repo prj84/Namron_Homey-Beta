@@ -1,0 +1,35 @@
+{
+  "title": {
+    "en": "Switch button is pressed"
+  },
+  "titleFormatted": {
+    "en": "Switch button is [[mode]]"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=4512701|4512726|4512728"
+    },
+    {
+      "type": "dropdown",
+      "name": "mode",
+      "title": "Mode",
+      "values": [
+        {
+          "id": "on",
+          "label": {
+            "en": "turned on"
+          }
+        },
+        {
+          "id": "off",
+          "label": {
+            "en": "turned off"
+          }
+        }
+      ]
+    }
+  ],
+  "id": "sr_switch_button_on_off"
+}

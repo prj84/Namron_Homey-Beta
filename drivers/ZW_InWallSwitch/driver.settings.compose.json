@@ -1,0 +1,34 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Button behaviour",
+      "nl": "Gedrag knoppen"
+    },
+    "children": [
+      {
+        "$extends": "wallswitch_enable_external_switch"
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Other",
+      "nl": "Overige"
+    },
+    "collapsed": true,
+    "children": [
+      {
+        "$extends": "wallswitch_save_state"
+      },
+      {
+        "$extends": "wallswitch_send_basic_report"
+      },
+
+      {
+        "$extends": "wallswitch_driving_type"
+      }
+    ]
+  }
+]

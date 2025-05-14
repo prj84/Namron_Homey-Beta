@@ -1,0 +1,145 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "Brightness changed"
+      },
+      "titleFormatted": {
+        "en": "Brightness changed"
+      },
+      "hint": "The brightness range from 0.00 to 1.00",
+      "args": [],
+      "tokens": [
+        {
+          "name": "brightness",
+          "type": "number",
+          "title": {
+            "en": "Brightness"
+          }
+        }
+      ],
+      "id": "sr_brightness_moved"
+    },
+    {
+      "title": {
+        "en": "Hue changed"
+      },
+      "titleFormatted": {
+        "en": "Hue changed"
+      },
+      "hint": "The hue range from 0.00 to 1.00",
+      "args": [],
+      "tokens": [
+        {
+          "name": "hue",
+          "type": "number",
+          "title": {
+            "en": "Hue"
+          }
+        }
+      ],
+      "id": "sr_hue_moved"
+    },
+    {
+      "title": {
+        "en": "White balance changed"
+      },
+      "titleFormatted": {
+        "en": "White balance changed"
+      },
+      "hint": "The white range from 0.00 to 1.00, 0.00 for coolest white, 1.00 for warmest white.",
+      "args": [],
+      "tokens": [
+        {
+          "name": "white",
+          "type": "number",
+          "title": {
+            "en": "White"
+          }
+        }
+      ],
+      "id": "sr_white_moved"
+    },
+    {
+      "id": "4512726_on",
+      "title": {
+        "en": "On"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512726_off",
+      "title": {
+        "en": "Off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512726_move_to_level_with_onoff",
+      "title": {
+        "en": "Move to level"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "level",
+          "type": "number",
+          "title": {
+            "en": "Level"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512726_move_to_color_temperature",
+      "title": {
+        "en": "Move to color temperature"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "color_temperature",
+          "type": "number",
+          "title": {
+            "en": "Color temperature"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512726_move_to_hue",
+      "title": {
+        "en": "Move to hue"
+      },
+      "deprecated": true,
+      "args": [],
+      "tokens": [
+        {
+          "name": "hue",
+          "type": "number",
+          "title": {
+            "en": "Hue"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Load turned !{{on|off}}",
+    "no": "Last slått !{{på|av}}"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "triggers": [
+    {
+      "id": "4512720_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512720_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512720_on_key_held_down",
+      "title": {
+        "en": "On button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button held down"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512720_on_key_released",
+      "title": {
+        "en": "On button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button released"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512720_off_key_held_down",
+      "title": {
+        "en": "Off button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button held down"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512720_off_key_released",
+      "title": {
+        "en": "Off button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button released"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

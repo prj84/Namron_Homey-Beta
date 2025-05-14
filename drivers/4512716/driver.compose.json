@@ -1,0 +1,63 @@
+{
+  "name": {
+    "en": "4512716 - Z-Wave Door/Window Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_contact",
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450",
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/4512716/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512716/assets/images/large.png",
+    "small": "/drivers/4512716/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "requireSecure": true,
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      53251
+    ],
+    "learnmode": {
+      "image": "/drivers/4512716/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the action button 3 times.\n\nIf pairing fails reset the device by press and hold down action button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. When factory reset the sensor, send Device Reset Locally Notification CC to associated devices of this group to report factory reset information.\n2. When the sensor state changes, send NOTIFICATION CC to associated devices of this group.\n3. When the battery power is low, send BATTERY CC to associated devices of this group."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "When the sensor is turned on/off, send BASIC_SET. It can be configured by configuration parameter 02 to send BASIC=0XFF(ON), BASIC=0X00(OFF) or disable this function."
+        }
+      }
+    }
+  }
+}

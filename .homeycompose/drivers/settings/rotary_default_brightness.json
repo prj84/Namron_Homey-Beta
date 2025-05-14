@@ -1,0 +1,19 @@
+{
+  "label": {
+    "en": "Default brightness"
+  },
+  "hint": {
+    "en": "This parameter determines the default brightness when turned on. 0: Dimmer will use state after power is restored. Values: 0 - 99. Default: 0"
+  },
+  "zwave": {
+    "index": 7,
+    "size": 1,
+    "signed": false
+  },
+  "type": "number",
+  "value": 0,
+  "attr": {
+    "min": 0,
+    "max": 99
+  }
+}

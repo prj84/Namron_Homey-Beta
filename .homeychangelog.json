@@ -1,0 +1,380 @@
+{
+  "1.0.1": {
+    "en": "Added support for ZigBee and Z-Wave devices, and improved the remote control triggers."
+  },
+  "2.0.0": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.1": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.2": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.3": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.4": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.5": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.6": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.7": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.8": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.9": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.10": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.0.11": {
+    "en": "1) Support Homey V5.0.0. 2) Support all namron devices. 3) Optimized the support for Flow, especially Remote. 4) If the previous devices are not working properly, please add them again."
+  },
+  "2.1.0": {
+    "en": "Added state report for ZigBee Light, added alarm_contact for Door Sensor, added meter_power and measure_power for 4512724, made some performance improvements."
+  },
+  "2.1.1": {
+    "en": "Fixed the problem of 4512715 not working."
+  },
+  "2.1.3": {
+    "en": "Fix ZW_Dimmer_Rotary"
+  },
+  "2.1.4": {
+    "en": "Fix the issue that doesn't work with older devices."
+  },
+  "2.1.5": {
+    "en": "Added support for 89665."
+  },
+  "2.1.6": {
+    "en": "Fix that 4512729 does not work."
+  },
+  "2.1.7": {
+    "en": "Test 4512715"
+  },
+  "2.1.8": {
+    "en": "Updated drivers of 4512710, 4512715, 4512724"
+  },
+  "2.1.9": {
+    "en": "Update the flow of 4512716."
+  },
+  "2.1.10": {
+    "en": "Fixes an issue that some devices do not recognize."
+  },
+  "2.1.11": {
+    "en": "Fixed 3802967 issue"
+  },
+  "2.1.12": {
+    "en": "Make ZigBee device pairing faster."
+  },
+  "2.1.13": {
+    "en": "Add support for the latest remote firmware."
+  },
+  "2.1.14": {
+    "en": "Added support for 4512725."
+  },
+  "2.1.15": {
+    "en": "Add the support for the thermostat mode to 4512725."
+  },
+  "2.1.16": {
+    "en": "Add the support for the thermostat mode to 4512725."
+  },
+  "2.2.0": {
+    "en": "Make flow easier."
+  },
+  "2.2.1": {
+    "en": "Make the flow clear and concise, change the Zwave device to unsecure."
+  },
+  "2.2.2": {
+    "en": "Add support for 4512744, 4512745, 4512746; Bug fixes and improvements."
+  },
+  "2.2.3": {
+    "en": "Fixes an issue that some Z-Wave devices pairing failed."
+  },
+  "2.2.4": {
+    "en": "Add support for thermsatat."
+  },
+  "2.2.5": {
+    "en": "Update the device name."
+  },
+  "2.2.6": {
+    "en": "Update the device name."
+  },
+  "2.2.7": {
+    "en": "Update all device names"
+  },
+  "2.2.8": {
+    "en": "Bug fixes"
+  },
+  "2.2.9": {
+    "en": "Add support for the 4512733."
+  },
+  "2.2.10": {
+    "en": "Add support for ZigBee Thermostat"
+  },
+  "2.2.11": {
+    "en": "Add support for the ZigBee thermostat, bug fixes."
+  },
+  "2.2.12": {
+    "en": "Bug fixes."
+  },
+  "2.2.13": {
+    "en": "Add support for the Homey Cloud."
+  },
+  "2.2.14": {
+    "en": "Bug fixes."
+  },
+  "2.2.18": {
+    "en": "Add support for thermostat."
+  },
+  "2.2.19": {
+    "en": "Add support for new product 53277."
+  },
+  "2.2.20": {
+    "en": "Bug fixes."
+  },
+  "2.2.21": {
+    "en": "Upgrade the Z-Wave secure communication."
+  },
+  "2.2.22": {
+    "en": "Upgrade the Z-Wave secure communication."
+  },
+  "2.2.23": {
+    "en": "Add class settings for 4512746."
+  },
+  "2.2.24": {
+    "en": "Bug fixes and improvements"
+  },
+  "2.2.25": {
+    "en": "Added support for 4512739 CCT Light Controller."
+  },
+  "2.2.26": {
+    "en": "Add support for 4512737/38."
+  },
+  "2.2.27": {
+    "en": "Fixed an issue that caused the level not to update."
+  },
+  "2.2.28": {
+    "en": "Updated the hysteresis of thermostat."
+  },
+  "2.2.29": {
+    "en": "Updated electric heater."
+  },
+  "2.2.30": {
+    "en": "Updated electric heater."
+  },
+  "2.2.31": {
+    "en": "ZG9093A updates."
+  },
+  "2.2.32": {
+    "en": "Add support for the ZigBee thermostat."
+  },
+  "2.2.33": {
+    "en": "Add Panelovns."
+  },
+  "2.2.34": {
+    "en": "Added support for new devices, added Cloud support to 4512737"
+  },
+  "2.2.35": {
+    "en": "Added support for Namron Stove Guard"
+  },
+  "2.2.36": {
+    "en": "Added support for Namron Stove Guard"
+  },
+  "2.2.37": {
+    "en": "Added support for TypeScript drivers, updated Stove Guard Support"
+  },
+  "2.2.38": {
+    "en": "Update Stove Guard Driver to use only one Zigbee Endpoint"
+  },
+  "2.2.39": {
+    "en": "Added support for new devices. Panel heaters, Stove Guard, Zigbee Thermostat plug and zigbee/z-wave window coverong controls"
+  },
+  "2.2.40": {
+    "en": "Fixed unhandled promise rejections"
+  },
+  "2.2.50": {
+    "en": "Added new Namron Devices - New dimmers and thermostat"
+  },
+  "2.2.52": {
+    "en": "Added new Dimmer Device - 4512750/51 - Namron LED Dimmer 2.0"
+  },
+  "2.2.53": {
+    "en": "Added new Dimmer Device - 4512750/51 - Namron LED Dimmer 2.0, Fixed some device images."
+  },
+  "2.2.54": {
+    "en": "Updated device class from light to socket on relay devices to give some more options. Added test to fix kWh reporting on 1402756."
+  },
+  "2.2.55": {
+    "en": "Updated device class on relay devices from light to socket to give some more options. Added a test to fix kWh reporting on 1402756."
+  },
+  "2.2.56": {
+    "en": "Included all Zigbee Panelheaters models into 1 device for easier adding. Put old panelheater devices as deprecated. Updated device class to socket on relay devices so they get some more out of the box Homey automations. Added fix on 1402756 on kWh reporting."
+  },
+  "2.2.57": {
+    "en": "Added driver for 4512734 - Namron Z-Wave MultiSensor."
+  },
+  "2.2.58": {
+    "en": "Added correct Manufactor ID on 3308431 - Luna lamp, Some name corrections on devices."
+  },
+  "2.2.59": {
+    "en": "Bug fixes"
+  },
+  "2.2.60": {
+    "en": "4512757 - Namron Z-Wave Termostat - fix for power measure bug"
+  },
+  "2.2.61": {
+    "en": "Bug fixes"
+  },
+  "2.2.62": {
+    "en": "Bug fixes"
+  },
+  "2.2.63": {
+    "en": "Fixes an issue where you get a Invalid enum capability on thermostat units."
+  },
+  "2.2.64": {
+    "en": "Temp remove Power metering and measuring from 1402756 to resolve cloud issue."
+  },
+  "2.2.65": {
+    "en": "Bug fixes regarding metering 4512757"
+  },
+  "2.2.66": {
+    "en": "Bug fixes on 4512737 Multiplier issue, Bug fixes on 4512757 to prevent Homey crash"
+  },
+  "2.2.67": {
+    "en": "Temp removed old code to fix flow limit to prevent Homey crash"
+  },
+  "2.2.68": {
+    "en": "Added new sensor devices"
+  },
+  "2.2.69": {
+    "en": "Added new zigbee sensor devices"
+  },
+  "2.2.70": {
+    "en": "Support for old drivers after update of Homey Cloud flow limit."
+  },
+  "2.2.71": {
+    "en": "Added support for new 4512768 and adjusted security level on Z-Wave devices."
+  },
+  "2.2.72": {
+    "en": "Added support for new devices - 4512768, 4512766, 4512767. Set all Z-Wave devices to unsecure"
+  },
+  "2.2.73": {
+    "en": "Added support for new devices - 4512768, 4512766, 4512767. Set all Z-Wave devices to unsecure. Moved thermostat mode to advanced settings on the 4512757 and 451275X thermostats"
+  },
+  "2.2.74": {
+    "en": "Added support for new devices - 4512768, 4512766, 4512767. Set all Z-Wave devices to unsecure. Moved thermostat mode to advanced settings on the 4512757 and 451275X thermostats. Corrected device id on the 451275X driver."
+  },
+  "2.2.75": {
+    "en": "Added support for new devices - 4512768, 4512766, 4512767. Set all Z-Wave devices to usecure. Moved thermostat mode to advanced settings on the 4512757 and 451275X thermostats. Fixed wrong device id on the 4512750/1 dimmer."
+  },
+  "2.2.76": {
+    "en": "Bug fixes on the 4512757 Thermostat driver, added support for new 4 channel zigbee switch "
+  },
+  "2.2.77": {
+    "en": "Added light temperature on the 3308431 - Luna Lamp"
+  },
+  "2.2.78": {
+    "en": "Bug fixes regarding manufactorer ids"
+  },
+  "2.2.79": {
+    "en": "Bug fixes on the 4512757 driver"
+  },
+  "2.2.80": {
+    "en": "Added flow cards for 4512768"
+  },
+  "2.2.81": {
+    "en": "Fix for 4512758/9 thermostat"
+  },
+  "2.2.82": {
+    "en": "Fix on luna lamp and on 4512758/9 thermostt"
+  },
+  "2.2.83": {
+    "en": "Fixes on Luna lamp and on 4512758/9 thermostat"
+  },
+  "2.2.84": {
+    "en": "Added support for new Namron Touch Thermostat 4512752/3"
+  },
+  "2.2.85": {
+    "en": "Bug fixes"
+  },
+  "2.2.86": {
+    "en": "Bug fixes on the 4512758/9 thermostat after zigbee driver update"
+  },
+  "2.2.87": {
+    "en": "Bug fixes"
+  },
+  "2.2.88": {
+    "en": "Bug fixes"
+  },
+  "2.2.89": {
+    "en": "Bug fixes, added support for new 4 channel zigbee switch, Added flow cards for 4512768, Added support for new Namron Touch Thermostat 4512752/3, Zigbee driver update "
+  },
+  "2.2.90": {
+    "en": "Fixes bug where 4512758/9 is set as Main  meter, Adds flow cards for regulator mode 4512758/9, Adds working mode and Slats rotationg time settings for 4512748"
+  },
+  "2.2.91": {
+    "en": "Fixes bug where 4512758/9 is set as Main  meter, Adds flow cards for regulator mode 4512758/9, Adds working mode and Slats rotationg time settings for 4512748, Adds a set Mode Flow card for 4512737/8 and 4512744/45"
+  },
+  "2.2.92": {
+    "en": "Fixes bug where 4512758/9 is set as Main  meter, Adds flow cards for regulator mode 4512758/9, Adds working mode and Slats rotationg time settings for 4512748, Adds a set Mode Flow card for 4512737/8 and 4512744/45, Fixes Floor sensor temp if no floor sensor is connected on 4512752/53"
+  },
+  "2.2.93": {
+    "en": "Adds support for 4512774/75"
+  },
+  "2.2.94": {
+    "en": "Bug fixes on the 3308431 - Luna Lamp - Please reinclude to fix all bindings"
+  },
+  "2.2.95": {
+    "en": "Update in drivers of 4512766/67 & 4512758/59"
+  },
+  "2.2.96": {
+    "en": "Bug fixes"
+  },
+  "2.2.97": {
+    "en": "Bug fixes"
+  },
+  "2.2.98": {
+    "en": "Added support for new dimmer devices 4512781 & 4512782. Added support for now thermostat devices 4512783 & 4512784."
+  },
+  "2.2.99": {
+    "en": "Added support for new dimmer devices 4512781 & 4512782. Added support for new thermostat devices 4512783 & 4512784."
+  },
+  "2.2.100": {
+    "en": "Bug fixes on 4512706 - flows now works again"
+  },
+  "2.2.101": {
+    "en": "Bug fixes"
+  },
+  "2.2.102": {
+    "en": "Bug fixes on flow cards 4512772/73"
+  },
+  "2.2.103": {
+    "en": "Bug fix on displaying wrong set temp on the 4512758/59"
+  },
+  "2.2.104": {
+    "en": "Added templates for new Namron Matter devices"
+  },
+  "2.2.105": {
+    "en": "Added support for 4512789 - Zigbee IP44 Smart Plug"
+  },
+  "2.2.106": {
+    "en": "Changed class on 4512789 til socket - Please repair device to get more options"
+  },
+  "2.2.107": {
+    "en": "Added humidity sensor to device driver 4512783/84 - Namron Edge Thermostat"
+  },
+  "2.2.108": {
+    "en": "Update of Power meter and Energy metering on device 4512737/38. Should resolve issue where no data reported. If still no data please reinclude the device for new binding."
+  },
+  "2.2.109": {
+    "en": "Added fix for the 4512737/38 on Power meter and Energy metering. Should resolve the issue where no data is reported. If still no data is reported after update, please reinclude the device to set up new bindings."
+  }
+}

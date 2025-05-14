@@ -1,0 +1,170 @@
+{
+  "actions": [
+    {
+      "id": "action_switch_turned_on_for_switch_1",
+      "title": {
+        "en": "Turned on for switch 1"
+      },
+      "hint": {
+        "en": "Turned on for switch 1."
+      }
+    },
+    {
+      "id": "action_switch_turned_off_for_switch_1",
+      "title": {
+        "en": "Turned off for switch 1"
+      },
+      "hint": {
+        "en": "Turned off for switch 1."
+      }
+    },
+    {
+      "id": "action_switch_turned_on_for_switch_2",
+      "title": {
+        "en": "Turned on for switch 2"
+      },
+      "hint": {
+        "en": "Turned on for switch 2."
+      },
+      "args": []
+    },
+    {
+      "id": "action_switch_turned_off_for_switch_2",
+      "title": {
+        "en": "Turned off for switch 2"
+      },
+      "hint": {
+        "en": "Turned off for switch 2."
+      },
+      "args": []
+    },
+    {
+      "id": "action_switch_with_onoff",
+      "title": {
+        "en": "Smart Switch onoff"
+      },
+      "titleFormatted": {
+        "en": "Turned [[onoff]] for device [[endpoint]]"
+      },
+      "hint": {
+        "en": "Smart switch onoff."
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "onoff",
+          "type": "number",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "title": {
+            "en": "0 to set off, 1 to set on"
+          }
+        },
+        {
+          "name": "endpoint",
+          "type": "number",
+          "min": 1,
+          "max": 2,
+          "step": 1,
+          "title": {
+            "en": "Device number: 1 or 2"
+          }
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "trigger_switch_2gang_turned_on_1",
+      "title": {
+        "en": "It Switch 1 turned ON "
+      },
+      "titleFormatted": {
+        "en": "It Switch 1 turned ON "
+      }
+    },
+    {
+      "id": "trigger_switch_2gang_turned_on_2",
+      "title": {
+        "en": "It Switch 2 turned ON "
+      },
+      "titleFormatted": {
+        "en": "It Switch 2 turned ON "
+      }
+    },
+    {
+      "id": "trigger_switch_2gang_turned_off_1",
+      "title": {
+        "en": "It Switch 1 turned OFF "
+      },
+      "titleFormatted": {
+        "en": "It Switch 1 turned OFF "
+      }
+    },
+    {
+      "id": "trigger_switch_2gang_turned_off_2",
+      "title": {
+        "en": "It Switch 2 turned OFF "
+      },
+      "titleFormatted": {
+        "en": "It Switch 2 turned OFF "
+      }
+    }
+  ],
+  "conditions" : [
+    {
+      "id": "condition_switch_2gang_turned_onoff",
+      "title": {
+        "en": "When Switch ... turned ... "
+      },
+      "titleFormatted": {
+        "en": "When [[channel]] turned [[when]]"
+      },
+      "hint": {
+        "en": "When if it channel 1/2 turned ON/OFF "
+      },
+      "args": [
+        {
+          "name": "channel",
+          "title" : { "en": "Chanel" },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Switch 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Switch 2"
+              }
+            }
+          ]
+        },
+        {
+          "name": "when",
+          "title":{"en":"When "},
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "on",
+              "label": {
+                "en": "ON"
+              }
+            },
+            {
+              "id": "off",
+              "label": {
+                "en": "OFF"
+              }
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

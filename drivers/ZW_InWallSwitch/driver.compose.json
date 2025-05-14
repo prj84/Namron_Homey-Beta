@@ -1,0 +1,179 @@
+{
+  "name": {
+    "en": "Switch (Z-wave)"
+  },
+  "deprecated": true,
+  "class": "light",
+  "capabilities": [
+    "onoff"
+  ],
+  "energy": {
+    "approximation": {
+      "usageOn": 400,
+      "usageOff": 0
+    }
+  },
+  "icon": "/drivers/ZW_InWallSwitch/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZW_InWallSwitch/assets/images/large.png",
+    "small": "/drivers/ZW_InWallSwitch/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53254
+    ],
+    "learnmode": {
+      "image": "/drivers/ZW_InWallSwitch/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button 3 times quickly.\n\nIf pairing fails reset the device by pressing the Reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  },
+  "settings": [
+    {
+      "type": "group",
+      "label": {
+        "en": "Button behaviour",
+        "nl": "Gedrag knoppen"
+      },
+      "children": [
+        {
+          "id": "wallswitch_enable_external_switch",
+          "value": true,
+          "label": {
+            "en": "Enable external switch",
+            "nl": "External schakelaar gebruiken"
+          },
+          "hint": {
+            "en": "This parameter determines the option to use an external switch to include or exclude the device from the network.",
+            "nl": "Deze parameter schakelt de optie in om een externe schakelaar te gebruiken om de dimmer toe te voegen of te verwijderen uit het netwerk."
+          },
+          "zwave": {
+            "index": 7,
+            "size": 1
+          },
+          "type": "checkbox"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": {
+        "en": "Other",
+        "nl": "Overige"
+      },
+      "collapsed": true,
+      "children": [
+        {
+          "id": "wallswitch_save_state",
+          "value": "0",
+          "label": {
+            "en": "Restore state after power failure",
+            "nl": "Herstel status na stroomonderbreking"
+          },
+          "hint": {
+            "en": "This parameter determines whether after a power failure the device should be restored to the state it had before the power failure.",
+            "nl": "Deze parameter bepaalt of het apparaat na een stroomonderbreking moet worden ingesteld zoals deze voor de stroomonderbreking stond ingesteld."
+          },
+          "zwave": {
+            "index": 2,
+            "size": 1
+          },
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Turn off load",
+                "nl": "Schakel de lamp uit"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Turn on load",
+                "nl": "Schakel de lamp in"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Restore state",
+                "nl": "Herstel toestand"
+              }
+            }
+          ],
+          "type": "dropdown"
+        },
+        {
+          "id": "wallswitch_send_basic_report",
+          "value": true,
+          "label": {
+            "en": "Send BASIC report",
+            "nl": "Stuur BASIC report"
+          },
+          "hint": {
+            "en": "This parameter determines whether the `BASIC report` is send to the Lifeline when the load state changed. Default: activated",
+            "nl": "Deze parameter bepaalt of het `BASIC report` wordt verstuurd naar de controller wanneer de toestand van de dimmer verandert. Standaard: ingeschakeld"
+          },
+          "zwave": {
+            "index": 3,
+            "size": 1
+          },
+          "type": "checkbox"
+        },
+        {
+          "id": "wallswitch_driving_type",
+          "value": "0",
+          "label": {
+            "en": "MOSFET driving type"
+          },
+          "hint": {
+            "en": "This parameter determines the used MOSFET driving type. Default: Leading edge",
+            "nl": "Deze parameter bepaalt de gebruikte MOSFET driving type. Standaard: Fase aansnijding"
+          },
+          "zwave": {
+            "index": 6,
+            "size": 1
+          },
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Leading edge",
+                "nl": "Fase aansnijding"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Trailing edge",
+                "nl": "Fase afsnijding"
+              }
+            }
+          ],
+          "type": "dropdown"
+        }
+      ]
+    }
+  ]
+}

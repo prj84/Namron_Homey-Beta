@@ -1,0 +1,54 @@
+{
+  "title": {
+    "en": "Set mode to..."
+  },
+  "titleFormatted": {
+    "en": "Set mode to [[mode]]"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=4512744"
+    },
+    {
+      "name": "mode",
+      "type": "dropdown",
+      "title": {
+        "en": "Mode"
+      },
+      "values": [
+        {
+          "id": "off_mode",
+          "title": {
+            "en": "Off"
+          }
+        },
+        {
+          "id": "auto_mode",
+          "title": {
+            "en": "Auto"
+          }
+        },
+        {
+          "id": "manual_mode",
+          "title": {
+            "en": "Manual"
+          }
+        },
+        {
+          "id": "dry_mode",
+          "title": {
+            "en": "Dry"
+          }
+        },
+        {
+          "id": "away_mode",
+          "title": {
+            "en": "Away"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Duty cycle",
+    "no": "Driftssyklus"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "min": 5,
+  "max": 100,
+  "step": 5,
+  "decimals": 0
+}

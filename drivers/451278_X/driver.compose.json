@@ -1,0 +1,89 @@
+{
+  "id": "4512781",
+  "name": {
+    "en": "4512781/82 - Zigbee Dimmer"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": false
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "isApproximated": true
+      }
+    },
+    "measure_power": {
+      "approximated": true
+    }
+  },
+  "images": {
+    "small": "/drivers/451278_X/assets/images/small.png",
+    "large": "/drivers/451278_X/assets/images/large.png",
+    "xlarge": "/drivers/451278_X/assets/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "HZC",
+      "Shyugj",
+      "Namron AS"
+    ],
+    "productId": [
+      "Meter-Dimmer-Switch-ZB3.0",
+      "D688-ZG",
+      "D692-ZG",
+      "4512781",
+      "4512782"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          1794,
+          2820,
+          11,
+          40960,
+          40961,
+          40962
+        ],
+        "bindings": [
+          0,
+          6,
+          8,
+          1794,
+          2820,
+          11,
+          40960,
+          40961,
+          40962
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To active pairing please long press the knob for 5s enter the setting menu find Inclusion and press the knob to start pairing."
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": []
+}

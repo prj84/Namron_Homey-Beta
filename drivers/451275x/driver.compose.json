@@ -1,0 +1,78 @@
+{
+  "name": {
+    "en": "4512750/51 - Zigbee LED Dimmer 2.0"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": true
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "isApproximated": true
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as",
+      "NamronAS",
+      "Shyugj",
+      "_TZ3000_pmdekgjg"
+    ],
+    "productId": [
+      "TS1101",
+      "4512750",
+      "4512751"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "bindings": [
+          6,
+          8
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/451275x/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the dim wheel 7 times when dimmer in ON to enter pairing mode. A blue LED will flash. \n\nIf pairing does not start after 20 seconds, reset the device by pressing 10 times on the dimming wheel when dimmer is ON.",
+        "no": "Trykk dimmehjulet 7 ganger når dimmeren er påslått. En blå LED diode vil blinke. \n\nHvis parringen ikke starter innen 20 sekunder, tilbakestill enheten ved å trykke 10 ganger på dimmehjulet når dimmeren er påslått."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/451275x/assets/images/large.png",
+    "small": "/drivers/451275x/assets/images/small.png"
+  },
+  "settings": []
+}

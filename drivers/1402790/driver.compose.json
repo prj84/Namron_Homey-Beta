@@ -1,0 +1,96 @@
+{
+  "class": "socket",
+  "name": {
+    "en": "140279* - Namron Stove Guard",
+    "no": "140279* - Namron Komfyrvakt"
+  },
+  "capabilities": [
+    "onoff",
+    "alarm_dry_cooking",
+    "meter_power",
+    "measure_power",
+    "measure_temperature",
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ]
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "xlarge": "/drivers/1402790/assets/images/xlarge.png",
+    "large": "/drivers/1402790/assets/images/large.png",
+    "small": "/drivers/1402790/assets/images/small.png"
+  },
+  "icon": "/drivers/1402790/assets/icon.svg",
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "Brun Holding"
+    ],
+    "productId": [
+      "1402790",
+      "Power Control Unit"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          1,
+          6,
+          1026,
+          1794,
+          2820
+        ],
+        "bindings": []
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/1402790/assets/learnmode.svg",
+      "instruction": {
+        "en": "Open the service menu by pressing the down button. Using the arrow keys navigate to \"Activation\" and select with the green button. Make sure \"ZB Pairing\" is set to ON with the green button.",
+        "no": "Gå til service menyen ved å trykke på pil ned knappen. Bruk pilknappene til å navigere deg frem til \"Activation\" og trykk på den grønne knappen. Pass på at \"ZB Pairing\" er satt til \"ON\" ved å trykke på den grønne knappen."
+      }
+    }
+  },
+  "settings": [
+    {
+      "id": "dry_cooking_temp_threshold",
+      "type": "number",
+      "label": {
+        "en": "Dry cooking temperature threshold",
+        "no": "Tørrkokingstemperaturterskel"
+      },
+      "value": 50,
+      "min": 45,
+      "max": 150,
+      "units": {
+        "en": "°C",
+        "no": "°C"
+      }
+    },
+    {
+      "id": "dry_cooking_time_threshold",
+      "type": "number",
+      "label": {
+        "en": "Dry cooking time threshold",
+        "no": "Tørrkoketidsterskel"
+      },
+      "value": 30,
+      "min": 30,
+      "max": 150,
+      "units": {
+        "en": "minutes",
+        "no": "minutter"
+      }
+    }
+  ]
+}

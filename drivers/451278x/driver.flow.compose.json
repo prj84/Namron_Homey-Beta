@@ -1,0 +1,58 @@
+{
+  "triggers": [
+    {
+      "id": "t11_trigger_frost_turned_on",
+      "title": {
+        "en": "It 4512783/4512784 frost turned ON "
+      }
+    },
+    {
+      "id": "t11_trigger_frost_turned_off",
+      "title": {
+        "en": "It 4512783/4512784 frost turned OFF"
+      }
+    },
+    {
+      "id": "t11_trigger_regulator_percentage",
+      "title": {
+        "en": "It 4512783/4512784 regulator_percentage turned ON"
+      }
+    }
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "id": "t11_turned_on_frost",
+      "title": {
+        "en": "Turned on 4512783/4512784 frost"
+      }
+    },
+    {
+      "id": "t11_turned_off_frost",
+      "title": {
+        "en": "Turned off 4512783/4512784 frost"
+      }
+    },
+    {
+      "id": "t11_set_regulator_percentage",
+      "title": {
+        "en": "Set 4512783/4512784 regulator percentage"
+      },
+      "titleFormatted": {
+        "en": "Set 4512783/4512784 regulator [[number]]%"
+      },
+      "args": [
+        {
+          "name": "number",
+          "type": "number",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "title": {
+            "en": "percentage"
+          }
+        }
+      ]
+    }
+  ]
+}

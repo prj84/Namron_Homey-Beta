@@ -1,0 +1,78 @@
+[
+  {
+    "id": "initialBrightness",
+    "label": {
+      "en": "Initial Brightness"
+    },
+    "type": "number",
+    "value": 0,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "units": {
+      "en": "%"
+    }
+  },
+  {
+    "id": "minimumBrightness",
+    "label": {
+      "en": "Minimum Brightness"
+    },
+    "type": "number",
+    "value": 1,
+    "min": 1,
+    "max": 50,
+    "step": 1,
+    "units": {
+      "en": "%"
+    }
+  },
+  {
+    "id": "screenConstantTime",
+    "label": {
+      "en": "Screen on time"
+    },
+    "type": "dropdown",
+    "value": "0",
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "constant"
+        }
+      },
+      {
+        "id": "10",
+        "label": {
+          "en": "10s"
+        }
+      },
+      {
+        "id": "30",
+        "label": {
+          "en": "30s"
+        }
+      },
+      {
+        "id": "60",
+        "label": {
+          "en": "60s"
+        }
+      }
+    ]
+  },
+  {
+    "id": "backlight",
+    "label": {
+      "en": "LCD Backlight"
+    },
+    "type": "number",
+    "value": 50,
+    "min": 1,
+    "max": 100,
+    "step": 1,
+    "units": {
+      "en": "%"
+    }
+  }
+]

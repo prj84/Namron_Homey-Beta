@@ -1,0 +1,53 @@
+{
+  "name": {
+    "en": "4512749 - Zigbee Plug With Temperature Sensor",
+    "no": "4512749 - Zigbee Plugg Med Temperatur Sensor "
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power",
+    "measure_temperature"
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "/drivers/4512749/assets/images/small.png",
+    "large": "/drivers/4512749/assets/images/large.png",
+    "xlarge": "/drivers/4512749/assets/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "NAMRON AS",
+    "productId": [
+      "4512749"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6,
+          1026,
+          1794,
+          2820
+        ],
+        "bindings": [
+          1026,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/4512749/assets/learnmode.svg",
+      "instruction": {
+        "en": "Short press Program button 5 times quickly.",
+        "no": "Trykk kjapt på programeringsknappen 5 ganger for å starte parring"
+      }
+    }
+  }
+}

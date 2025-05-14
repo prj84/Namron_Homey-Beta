@@ -1,0 +1,50 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Button behaviour",
+      "nl": "Gedrag knoppen"
+    },
+    "children": [
+      {
+        "$extends": "rotary_enable_external_switch"
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Dimming",
+      "nl": "Dimmen"
+    },
+    "children": [
+      {
+        "$extends": "rotary_dim_duration"
+      },
+      {
+        "$extends": "rotary_onoff_fade_duration"
+      },
+      {
+        "$extends": "rotary_dim_method"
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Other",
+      "nl": "Overige"
+    },
+    "children": [
+      {
+        "$extends": "rotary_default_brightness"
+      },
+      {
+        "$extends": "rotary_state_after_power_restored"
+      },
+      {
+        "$extends": "rotary_send_basic_report"
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+{
+    "id": "4512785",
+    "name": {
+        "en": "4512785 Zigbee Switch"
+    },
+    "class": "socket",
+    "capabilities": [
+        "reset_condition_alarm"
+    ],
+    "capabilitiesOptions": {
+        "reset_condition_alarm": {
+            "maintenanceAction": true,
+            "title": {
+                "en": "Reset Condition Alarm"
+            }
+        }
+    },
+    "images": {
+        "small": "/drivers/4512785/assets/images/small.png",
+        "large": "/drivers/4512785/assets/images/large.png",
+        "xlarge": "/drivers/4512785/assets/images/xlarge.png"
+    },
+    "energy": {
+        "approximation": {
+            "usageOn": 0,
+            "usageOff": 0
+        }
+    },
+    "zigbee": {
+        "manufacturerName": [
+            "HZC",
+            "Shyugj",
+            "NAMRON AS",
+            "NAMRON  AS",
+            "NAMRON As",
+            "Namron AS",
+            "Namron As",
+            "namron as"
+        ],
+        "productId": [
+            "S730-ZG",
+            "730-ZG",
+            "4512785"
+        ],
+        "endpoints": {
+            "1": {
+                "clusters": [
+                    0,
+                    2,
+                    6,
+                    32,
+                    2820,
+                    1794,
+                    1026,
+                    1248
+                ],
+                "bindings": [
+                    0,
+                    2,
+                    6,
+                    2820,
+                    1794,
+                    1026,
+                    1248,
+                    1110,
+                    1111
+                ]
+            }
+        },
+        "learnmode": {
+            "instruction": {
+                "en": "Short press once and long press once for 3 seconds to join the network."
+            }
+        }
+    },
+    "platforms": [
+        "local"
+    ],
+    "connectivity": [
+        "zigbee",
+        "lan"
+    ]
+}

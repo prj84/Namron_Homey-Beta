@@ -1,0 +1,33 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Thermostat mode",
+    "no": "Termostat modus"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "0",
+      "title": {
+        "en": "Manual",
+        "no": "Manuell"
+      }
+    },
+    {
+      "id": "1",
+      "title": {
+        "en": "Home",
+        "no": "Hjemme"
+      }
+    },
+    {
+      "id": "2",
+      "title": {
+        "en": "Away",
+        "no": "Bortreist"
+      }
+    }
+  ]
+}

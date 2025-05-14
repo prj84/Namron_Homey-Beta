@@ -1,0 +1,68 @@
+{
+  "name": {
+    "en": "4512734 - Z-Wave MultiSensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_temperature",
+    "measure_humidity",
+    "measure_luminance",
+    "alarm_motion",
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AAA",
+      "AAA"
+    ]
+  },
+  "icon": "/drivers/4512734/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512734/assets/images/large.png",
+    "small": "/drivers/4512734/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      1080
+    ],
+    "productTypeId": [
+      1024
+    ],
+    "productId": [
+      53514
+    ],
+    "learnmode": {
+      "image": "/drivers/4512734/assets/learnmode.svg",
+      "instruction": {
+        "en": "Open the back cover, and then press the action button on the sensor 3 times quickly.",
+        "no": "Ta av bakplaten på sensoren. Trykk tre ganger på knappen for å starte inkludering"
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. When factory reset the sensor, send Device Reset Locally Notification CC to associated devices of this group to report factory reset information. 2. When motion detected, send Notification Report to associated devices of this group. 3. Send Sensor Multilevel Report to associated devices of this group. 4. Send Battery Report to associated devices of this group."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "When motion detected, send Basic Set 0xFF/0x00 to associated devices of this group."
+        }
+      }
+    }
+  }
+}

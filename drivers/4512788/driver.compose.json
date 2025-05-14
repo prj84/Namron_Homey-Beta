@@ -1,0 +1,75 @@
+{
+    "name": {
+        "en": "4512788"
+    },
+    "class": "light",
+    "capabilities": [
+        "dim",
+        "onoff"
+    ],
+    "capabilitiesOptions": {
+        "dim": {
+            "opts": {
+                "duration": true
+            }
+        },
+        "onoff": {
+            "setOnDim": false
+        },
+        "capabilitiesOptions": {
+            "measure_power": {
+                "isApproximated": true
+            }
+        },
+        "measure_power": {
+            "approximated": true
+        }
+    },
+    "images": {
+        "small": "/drivers/4512788/assets/images/small.png",
+        "large": "/drivers/4512788/assets/images/large.png"
+    },
+    "zigbee": {
+        "manufacturerName": [
+            "HZC",
+            "NAMRON AS",
+            "NAMRON  AS",
+            "NAMRON As",
+            "Namron AS",
+            "Namron As",
+            "namron as",
+            "Namron  AS"
+        ],
+        "productId": [
+            "D726-ZG",
+            "4512788"
+        ],
+        "endpoints": {
+            "1": {
+                "clusters": [
+
+                    6,
+                    8,
+                    1794,
+                    2820
+                ],
+                "bindings": [
+
+                    6,
+                    8,
+                    1794,
+                    2820
+                ]
+            }
+        },
+        "learnmode": {
+            "instruction": {
+                "en": "Short press once and long press once for 3 seconds to join the network."
+            }
+        }
+    },
+    "platforms": [
+        "local"
+    ],
+    "connectivity": []
+}

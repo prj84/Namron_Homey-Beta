@@ -1,0 +1,124 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "Brightness button is pressed"
+      },
+      "titleFormatted": {
+        "en": "Brightness button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_brightness_button_mode"
+    },
+    {
+      "title": {
+        "en": "Switch button is pressed"
+      },
+      "titleFormatted": {
+        "en": "Switch button is [[mode]]"
+      },
+      "args": [
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_switch_button_mode"
+    },
+    {
+      "id": "4512712_on_off",
+      "title": {
+        "en": "On/Off"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512712_on_off_key_held_down",
+      "title": {
+        "en": "On/Off button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512712_on_off_key_released",
+      "title": {
+        "en": "On/Off button released"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512712_level",
+      "title": {
+        "en": "Level button pressed 1 time"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512712_level_key_held_down",
+      "title": {
+        "en": "Level button held down"
+      },
+      "deprecated": true,
+      "args": []
+    },
+    {
+      "id": "4512712_level_key_released",
+      "title": {
+        "en": "Level button released"
+      },
+      "deprecated": true,
+      "args": []
+    }
+  ]
+}

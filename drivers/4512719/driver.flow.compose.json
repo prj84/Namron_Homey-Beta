@@ -1,0 +1,144 @@
+{
+  "triggers": [
+    {
+      "id": "4512719_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512719_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512719_level_move_with_onoff",
+      "title": {
+        "en": "Move level"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move level"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512719_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level"
+      },
+      "titleFormatted": {
+        "en": "[[group]] stop level"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

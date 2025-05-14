@@ -1,0 +1,77 @@
+{
+  "name": {
+    "en": "4512764 - ZigBee Water Leak Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_battery",
+    "alarm_water",
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "NAMRON AS",
+      "NAMRON  AS",
+      "NAMRON As",
+      "Namron AS",
+      "Namron As",
+      "namron as"
+    ],
+    "productId": [
+      "4512764"
+    ],
+    "deviceId": [
+      1026
+    ],
+    "profileId": 260,
+    "endpoints": {
+      "1": {
+        "clusters": [
+          1,
+          1280,
+          2821
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To Include, short press Config Button three times. If nothing happens, please factory reset the device by holding the Config button for 10 sec."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/4512764/assets/images/large.png",
+    "small": "/drivers/4512764/assets/images/small.png"
+  },
+  "settings": [
+    {
+      "id": "battery_threshold",
+      "type": "number",
+      "label": {
+        "en": "Battery alarm threshold (%)",
+        "nl": "Batterij alarm waarde (%)"
+      },
+      "hint": {
+        "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
+        "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+      },
+      "value": 20,
+      "attr": {
+        "min": 1,
+        "max": 90
+      }
+    }
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ]
+}

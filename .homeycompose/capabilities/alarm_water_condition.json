@@ -1,0 +1,17 @@
+{
+    "type": "boolean",
+    "title": {
+        "en": "Water Condition Alarm"
+    },
+    "desc": {
+        "en": "Water Condition Alarm"
+    },
+    "units": {
+        "en": ""
+    },
+    "insights": true,
+    "getable": true,
+    "setable": true,
+    "uiComponent": "sensor",
+    "icon": "/assets/tempmeasure/alarm.svg"
+}

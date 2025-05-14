@@ -1,0 +1,28 @@
+
+{
+    "name": { 
+        "en": "Namron Matter Turnable dimmer",
+        "no": "Namron Matter Thread Vridimmer",
+        "se": "Namron Matter Thread Vridimmer" 
+    },
+    "platforms": ["local"],
+    "connectivity": ["matter"], 
+    "class": "light",
+    "capabilities": ["onoff", "dim"],
+    "matter": {
+      "vendorId": 1234,
+      "productId": 4567,
+      "learnmode": {
+        "instruction": { "en": "Scan the QR Code on the front plate on the dimmer device. The device will be added automatically. \n\n Remove device from all controllers: Push and hold the reset button for more then 5 sec. The LED indicator will light up in red to indicate a seccessfull reset.",
+                         "no": "Skann QR-koden på frontplaten på dimmerenheten. Enheten vil bli lagt til automatisk. \n\n Fjern enheten fra alle kontrollere: Trykk og hold inne tilbakestillingsknappen i mer enn 5 sekunder. LED-indikatoren vil lyse rødt for å indikere en vellykket tilbakestilling.",
+                         "se": "Skanna QR-koden på frontplattan på dimmerenheten. Enheten läggs till automatiskt. \n\n Ta bort enheten från alla kontroller: Tryck och håll in återställningsknappen i mer än 5 sekunder. LED-indikatorn kommer att lysa rött för att indikera en lyckad återställning."
+     },
+        "image": "/drivers/<driver_id>/assets/learnmode.svg"
+      }
+    },
+    "images": {
+      "small": "/drivers/4512780/assets/images/small.png",
+      "large": "/drivers/4512780/assets/images/large.png",
+      "xlarge": "/drivers/4512780/assets/images/xlarge.png"
+    }
+  }

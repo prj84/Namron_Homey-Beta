@@ -1,0 +1,184 @@
+{
+  "triggers": [
+    {
+      "id": "ZW_WallController_4_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_WallController_4_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_WallController_4_on_key_held_down",
+      "title": {
+        "en": "On button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button held down"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_WallController_4_on_key_released",
+      "title": {
+        "en": "On button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on button released"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_WallController_4_off_key_held_down",
+      "title": {
+        "en": "Off button held down"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button held down"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZW_WallController_4_off_key_released",
+      "title": {
+        "en": "Off button released"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off button released"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

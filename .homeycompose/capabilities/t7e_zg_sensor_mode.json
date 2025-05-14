@@ -1,0 +1,64 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Sensor mode"
+  },
+  "desc": {
+    "en": "Sensor mode"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/t7e_zg_sensor_mode.svg",
+  "values": [
+    {
+      "id": "a",
+      "title": {
+        "en": "A",
+        "zh": "A(内部传感器)"
+      }
+    },
+    {
+      "id": "f",
+      "title": {
+        "en": "F",
+        "zh": "F(地板传感器)"
+      }
+    },
+    {
+      "id": "af",
+      "title": {
+        "en": "AF",
+        "zh": "AF(内部+地板传 感器)"
+      }
+    },
+    {
+      "id": "a2",
+      "title": {
+        "en": "A2",
+        "zh": "A2(外部房间传 感器)"
+      }
+    },
+    {
+      "id": "a2f",
+      "title": {
+        "en": "A2F",
+        "zh": "A2F(外部房间+ 地板传感器)"
+      }
+    },
+    {
+      "id": "fp",
+      "title": {
+        "en": "FP",
+        "zh": "FP(地板传感器+ 功率调节器)"
+      }
+    },
+    {
+      "id": "p",
+      "title": {
+        "en": "P",
+        "zh": "P(功率调节器)"
+      }
+    }
+  ]
+}

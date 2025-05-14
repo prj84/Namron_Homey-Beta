@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Child lock is turned !{{on|off}}",
+    "no": "Barnesikring slått !{{på|av}}"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    }
+  ]
+}

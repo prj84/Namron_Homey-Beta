@@ -1,0 +1,19 @@
+{
+  "label": {
+    "en": "Delay time when turn off"
+  },
+  "hint": {
+    "en": "Settings delay time when turn off the load, unit is second.\nValid value: 0-60"
+  },
+  "zwave": {
+    "index": 8,
+    "size": 1,
+    "signed": false
+  },
+  "type": "number",
+  "value": 0,
+  "attr": {
+    "min": 0,
+    "max": 60
+  }
+}

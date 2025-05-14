@@ -1,0 +1,15 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Child lock",
+    "no": "Knappelås"
+  },
+  "desc": {
+    "en": "Active child lock / button lock\n",
+    "no": "Aktiv barnesikring/knappelås"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "toggle",
+  "icon": "/assets/child_lock.svg"
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sensitivity",
+    "type": "dropdown",
+    "value": "default",
+    "label": {
+      "en": "Sensitivity"
+    },
+    "hint": {
+      "en": "After clicking Save, short press the button on the back of the device once to activate the device. Otherwise, the settings may fail.\n\nDefault is between Highest and High IV."
+    },
+    "values": [
+      {
+        "id": "default",
+        "label": {
+          "en": "Default"
+        }
+      },
+      {
+        "id": "disablePIR",
+        "label": {
+          "en": "Disable PIR"
+        }
+      },
+      {
+        "id": "highest",
+        "label": {
+          "en": "Highest"
+        }
+      },
+      {
+        "id": "highIV",
+        "label": {
+          "en": "High IV"
+        }
+      },
+      {
+        "id": "highIII",
+        "label": {
+          "en": "High III"
+        }
+      },
+      {
+        "id": "highII",
+        "label": {
+          "en": "High II"
+        }
+      },
+      {
+        "id": "highI",
+        "label": {
+          "en": "High I"
+        }
+      },
+      {
+        "id": "middle",
+        "label": {
+          "en": "Middle"
+        }
+      },
+      {
+        "id": "lowI",
+        "label": {
+          "en": "Low I"
+        }
+      },
+      {
+        "id": "lowII",
+        "label": {
+          "en": "Low II"
+        }
+      },
+      {
+        "id": "lowIII",
+        "label": {
+          "en": "Low III"
+        }
+      },
+      {
+        "id": "lowIV",
+        "label": {
+          "en": "Low IV"
+        }
+      },
+      {
+        "id": "lowest",
+        "label": {
+          "en": "Lowest"
+        }
+      }
+    ]
+  }
+]

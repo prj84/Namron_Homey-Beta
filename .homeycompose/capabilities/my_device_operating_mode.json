@@ -1,0 +1,24 @@
+{
+  "id": "my_device_operating_mode",
+  "title": {
+    "en": "Device operating mode"
+  },
+  "type": "enum",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "switch_mode",
+      "title": {
+        "en": "Switch mode"
+      }
+    },
+    {
+      "id": "thermostat_mode",
+      "title": {
+        "en": "Thermostat mode"
+      }
+    }
+  ]
+}

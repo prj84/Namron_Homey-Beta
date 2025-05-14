@@ -1,0 +1,13 @@
+{
+  "type": "string",
+  "title": {
+    "en": "Over current alarm"
+  },
+  "desc": {
+    "en": "Over current alarm"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/ac_alarm.svg"
+}

@@ -1,0 +1,84 @@
+{
+  "name": {
+    "en": "4512746 - Z-Wave Switch 16A"
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "setOnDim": false
+    },
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "measure_power": {
+      "isApproximated": true
+    }
+  },
+  "icon": "/drivers/4512746/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512746/assets/images/large.png",
+    "small": "/drivers/4512746/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      4
+    ],
+    "productId": [
+      53273
+    ],
+    "learnmode": {
+      "image": "/drivers/4512746/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button 3 times quickly.\n\nIf pairing fails reset the device by pressing the Reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  },
+  "settings": [
+    {
+      "id": "class",
+      "type": "dropdown",
+      "value": "light",
+      "label": {
+        "en": "Device class"
+      },
+      "values": [
+        {
+          "id": "light",
+          "label": {
+            "en": "Light"
+          }
+        },
+        {
+          "id": "socket",
+          "label": {
+            "en": "Socket"
+          }
+        }
+      ]
+    }
+  ]
+}

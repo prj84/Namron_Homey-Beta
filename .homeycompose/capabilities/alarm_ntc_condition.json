@@ -1,0 +1,17 @@
+{
+    "type": "boolean",
+    "title": {
+        "en": "NTC Condition Alarm"
+    },
+    "desc": {
+        "en": "NTC Condition Alarm"
+    },
+    "units": {
+        "en": ""
+    },
+    "insights": true,
+    "getable": true,
+    "setable": true,
+    "uiComponent": "sensor",
+    "icon": "/assets/tempmeasure/alarm.svg"
+}

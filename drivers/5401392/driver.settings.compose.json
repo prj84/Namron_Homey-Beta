@@ -1,0 +1,438 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Weekly Schedule Settings"
+    },
+    "children": [
+      {
+        "id": "repeat",
+        "type": "dropdown",
+        "label": {
+          "en": "Repeat"
+        },
+        "value": "sunday",
+        "values": [
+          {
+            "id": "everyday",
+            "label": {
+              "en": "Every day"
+            }
+          },
+          {
+            "id": "weekday",
+            "label": {
+              "en": "Every weekday"
+            }
+          },
+          {
+            "id": "weekend",
+            "label": {
+              "en": "Every weekend"
+            }
+          },
+          {
+            "id": "sunday",
+            "label": {
+              "en": "Sunday"
+            }
+          },
+          {
+            "id": "monday",
+            "label": {
+              "en": "Monday"
+            }
+          },
+          {
+            "id": "tuesday",
+            "label": {
+              "en": "Tuesday"
+            }
+          },
+          {
+            "id": "wednesday",
+            "label": {
+              "en": "Wednesday"
+            }
+          },
+          {
+            "id": "thursday",
+            "label": {
+              "en": "Thursday"
+            }
+          },
+          {
+            "id": "friday",
+            "label": {
+              "en": "Friday"
+            }
+          },
+          {
+            "id": "saturday",
+            "label": {
+              "en": "Saturday"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "First Weekly Schedule"
+    },
+    "children": [
+      {
+        "id": "first_hour",
+        "type": "number",
+        "label": {
+          "en": "Hour"
+        },
+        "value": 7,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      {
+        "id": "first_minute",
+        "type": "number",
+        "label": {
+          "en": "Minute"
+        },
+        "value": 30,
+        "min": 0,
+        "max": 59,
+        "step": 1
+      },
+      {
+        "id": "first_target",
+        "type": "number",
+        "label": {
+          "en": "Target"
+        },
+        "value": 30,
+        "min": 5,
+        "max": 35,
+        "step": 0.5,
+        "units": {
+          "en": "℃"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Second Weekly Schedule"
+    },
+    "children": [
+      {
+        "id": "second_hour",
+        "type": "number",
+        "label": {
+          "en": "Hour"
+        },
+        "value": 12,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      {
+        "id": "second_minute",
+        "type": "number",
+        "label": {
+          "en": "Minute"
+        },
+        "value": 0,
+        "min": 0,
+        "max": 59,
+        "step": 1
+      },
+      {
+        "id": "second_target",
+        "type": "number",
+        "label": {
+          "en": "Target"
+        },
+        "value": 25,
+        "min": 5,
+        "max": 35,
+        "step": 0.5,
+        "units": {
+          "en": "℃"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Third Weekly Schedule"
+    },
+    "children": [
+      {
+        "id": "third_hour",
+        "type": "number",
+        "label": {
+          "en": "Hour"
+        },
+        "value": 18,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      {
+        "id": "third_minute",
+        "type": "number",
+        "label": {
+          "en": "Minute"
+        },
+        "value": 0,
+        "min": 0,
+        "max": 59,
+        "step": 1
+      },
+      {
+        "id": "third_target",
+        "type": "number",
+        "label": {
+          "en": "Target"
+        },
+        "value": 28,
+        "min": 5,
+        "max": 35,
+        "step": 0.5,
+        "units": {
+          "en": "℃"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Fourth Weekly Schedule"
+    },
+    "children": [
+      {
+        "id": "fourth_hour",
+        "type": "number",
+        "label": {
+          "en": "Hour"
+        },
+        "value": 22,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      {
+        "id": "fourth_minute",
+        "type": "number",
+        "label": {
+          "en": "Minute"
+        },
+        "value": 0,
+        "min": 0,
+        "max": 59,
+        "step": 1
+      },
+      {
+        "id": "fourth_target",
+        "type": "number",
+        "label": {
+          "en": "Target"
+        },
+        "value": 20,
+        "min": 5,
+        "max": 35,
+        "step": 0.5,
+        "units": {
+          "en": "℃"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Device Settings"
+    },
+    "children": [
+      {
+        "id": "operate_display_brightness",
+        "type": "dropdown",
+        "value": "one",
+        "label": {
+          "en": "Operate display brightness"
+        },
+        "values": [
+          {
+            "id": "one",
+            "label": {
+              "en": "Level 1"
+            }
+          },
+          {
+            "id": "two",
+            "label": {
+              "en": "Level 2"
+            }
+          },
+          {
+            "id": "three",
+            "label": {
+              "en": "Level 3"
+            }
+          },
+          {
+            "id": "four",
+            "label": {
+              "en": "Level 4"
+            }
+          },
+          {
+            "id": "five",
+            "label": {
+              "en": "Level 5"
+            }
+          },
+          {
+            "id": "six",
+            "label": {
+              "en": "Level 6"
+            }
+          },
+          {
+            "id": "seven",
+            "label": {
+              "en": "Level 7"
+            }
+          }
+        ]
+      },
+      {
+        "id": "display_auto_off_activation",
+        "type": "dropdown",
+        "value": "disabled",
+        "label": {
+          "en": "Display auto off activation"
+        },
+        "values": [
+          {
+            "id": "disabled",
+            "label": {
+              "en": "Disabled"
+            }
+          },
+          {
+            "id": "enabled",
+            "label": {
+              "en": "Enabled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "power_up_status",
+        "type": "dropdown",
+        "value": "latestMode",
+        "label": {
+          "en": "Power up status"
+        },
+        "values": [
+          {
+            "id": "latestMode",
+            "label": {
+              "en": "Latest mode"
+            }
+          },
+          {
+            "id": "manualMode",
+            "label": {
+              "en": "Manual mode"
+            }
+          }
+        ]
+      },
+      {
+        "id": "window_open_check",
+        "type": "dropdown",
+        "value": "enabled",
+        "label": {
+          "en": "Window open check"
+        },
+        "values": [
+          {
+            "id": "enabled",
+            "label": {
+              "en": "Enabled"
+            }
+          },
+          {
+            "id": "disabled",
+            "label": {
+              "en": "Disabled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hysteresis",
+        "type": "number",
+        "label": {
+          "en": "Hysteresis"
+        },
+        "value": 0.5,
+        "min": 0.5,
+        "max": 5.0,
+        "units": {
+          "en": "℃"
+        }
+      },
+      {
+        "id": "localTemperatureCalibration",
+        "type": "number",
+        "label": {
+          "en": "Local Temperature Calibration"
+        },
+        "value": 0,
+        "min": -49,
+        "max": 49,
+        "units": {
+          "en": "0.1℃"
+        }
+      },
+      {
+        "id": "keypadLockout",
+        "type": "dropdown",
+        "value": "noLockout",
+        "label": {
+          "en": "Keypad Lockout"
+        },
+        "values": [
+          {
+            "id": "noLockout",
+            "label": {
+              "en": "No lockout"
+            }
+          },
+          {
+            "id": "level1Lockout",
+            "label": {
+              "en": "Lockout"
+            }
+          }
+        ]
+      },
+      {
+        "id": "syncTimeOnDevice",
+        "type": "checkbox",
+        "value": false,
+        "label": {
+          "en": "Sync time on device"
+        }
+      }
+    ]
+  }
+]

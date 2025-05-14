@@ -1,0 +1,13 @@
+{
+  "type": "string",
+  "title": {
+    "en": "Current"
+  },
+  "desc": {
+    "en": "Rms current"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/wavy_line.svg"
+}

@@ -1,0 +1,155 @@
+[
+    {
+        "id": "start_up_on_off",
+        "type": "dropdown",
+        "value": "off",
+        "label": {
+            "en": "Device power on state"
+        },
+        "values": [
+            {
+                "id": "off",
+                "label": {
+                    "en": "off"
+                }
+            },
+            {
+                "id": "on",
+                "label": {
+                    "en": "on"
+                }
+            },
+            {
+                "id": "toggle",
+                "label": {
+                    "en": "toggle"
+                }
+            },
+            {
+                "id": "previous value",
+                "label": {
+                    "en": "previous value"
+                }
+            }
+        ]
+    },
+    {
+        "id": "minBrightness",
+        "type": "number",
+        "label": {
+            "en": "Set minimum Brightness(%)"
+        },
+        "value": 1,
+        "attr": {
+            "min": 1,
+            "max": 50
+        }
+    },
+    {
+        "id": "onLevel2",
+        "type": "number",
+        "label": {
+            "en": "Start level(%)"
+        },
+        "hint": {
+            "en": "When the value is 0, it is closed."
+        },
+        "value": 0,
+        "attr": {
+            "min": 0,
+            "max": 100
+        }
+    },
+    {
+        "id": "outEdge",
+        "type": "dropdown",
+        "value": "LeadingEdge",
+        "label": {
+            "en": "Dimming mode setting"
+        },
+        "values": [
+            {
+                "id": "LeadingEdge",
+                "label": {
+                    "en": "Leading edge"
+                }
+            },
+            {
+                "id": "trailingEdge",
+                "label": {
+                    "en": "trailing edge"
+                }
+            }
+        ]
+    },
+    {
+        "id": "defaultMoveRate",
+        "type": "dropdown",
+        "value": "1",
+        "label": {
+            "en": "Default Move Rate"
+        },
+        "values": [
+            {
+                "id": "1",
+                "label": {
+                    "en": "1"
+                }
+            },
+            {
+                "id": "2",
+                "label": {
+                    "en": "2"
+                }
+            },
+            {
+                "id": "3",
+                "label": {
+                    "en": "3"
+                }
+            },
+            {
+                "id": "4",
+                "label": {
+                    "en": "4"
+                }
+            },
+            {
+                "id": "5",
+                "label": {
+                    "en": "5"
+                }
+            },
+            {
+                "id": "6",
+                "label": {
+                    "en": "6"
+                }
+            },
+            {
+                "id": "7",
+                "label": {
+                    "en": "7"
+                }
+            },
+            {
+                "id": "8",
+                "label": {
+                    "en": "8"
+                }
+            },
+            {
+                "id": "9",
+                "label": {
+                    "en": "9"
+                }
+            },
+            {
+                "id": "10",
+                "label": {
+                    "en": "10"
+                }
+            }
+        ]
+    }
+]

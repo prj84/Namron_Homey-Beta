@@ -1,0 +1,566 @@
+[
+
+  {
+    "id": "thermostat_regulator_mode",
+    "label": {
+      "en": "Thermostat/Regulator mode"
+    },
+    "hint": {
+      "en": "In cooling mode, the regulator heating cannot be switched."
+    },
+    "type": "dropdown",
+    "value": "0",
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "Thermostat Mode"
+        }
+      },
+      {
+        "id": "6",
+        "label": {
+          "en": "Regulator Heating"
+        }
+      }
+    ]
+  },
+  {
+    "id": "run_mode",
+    "label": {
+      "en": "Run mode"
+    },
+    "type": "dropdown",
+    "value": "eco",
+    "values": [
+      {
+        "id": "eco",
+        "label": {
+          "en": "ECO"
+        }
+      },
+      {
+        "id": "manual",
+        "label": {
+          "en": "Manual"
+        }
+      },
+      {
+        "id": "program",
+        "label": {
+          "en": "Program"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Temperature Settings"
+    },
+    "children": [
+      {
+        "id": "temperature_display_mode",
+        "type": "dropdown",
+        "value": "0",
+        "label": {
+          "en": "Temperature Display Mode"
+        },
+        "values": [
+          {
+            "id": "0",
+            "label": {
+              "en": "degree centigrade"
+            }
+          },
+          {
+            "id": "1",
+            "label": {
+              "en": "Fahrenheit degree"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maxHeatTemp",
+        "type": "number",
+        "value": 15,
+        "min": 15,
+        "max": 95,
+        "step": 0.5,
+        "hint": {
+          "en": "degree centigrade(15-35) or Fahrenheit degree(59-95)\n"
+        },
+        "label": {
+          "en": "Max Heat Temp"
+        }
+      },
+      {
+        "id": "minCoolTemp",
+        "type": "number",
+        "value": 10,
+        "min": 10,
+        "max": 86,
+        "step": 0.5,
+        "hint": {
+          "en": "degree centigrade(10-30) or Fahrenheit degree(50-86)\n"
+        },
+        "label": {
+          "en": "Min Cool Temp"
+        }
+      }
+
+    ]
+  },
+
+  {
+    "id": "sensor_mode",
+    "type": "dropdown",
+    "value": "a",
+    "label": {
+      "en": "Sensor mode "
+    },
+    "values": [
+      {
+        "id": "a",
+        "label": {
+          "en": "Air sensor mode"
+        }
+      },
+      {
+        "id": "f",
+        "label": {
+          "en": "Floor sensor mode"
+        }
+      },
+      {
+        "id": "af",
+        "label": {
+          "en": "Air + Floor sensor mode"
+        }
+      },
+      {
+        "id": "a2",
+        "label": {
+          "en": "External sensor mode"
+        }
+      },
+      {
+        "id": "a2f",
+        "label": {
+          "en": "External + Floor sensor mode"
+        }
+      },
+      {
+        "id": "p",
+        "label": {
+          "en": "power regulator"
+        }
+      }
+    ]
+  },
+  {
+    "id": "systemMode",
+    "type": "dropdown",
+    "value": "heat",
+    "label": {
+      "en": "thermostat mode"
+    },
+    "hint": {
+      "en": "In Regulator Heating, the cool mode cannot be switched."
+    },
+    "values": [
+      {
+        "id": "heat",
+        "label": {
+          "en": "heat"
+        }
+      },
+      {
+        "id": "cool",
+        "label": {
+          "en": "cool"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lcd_backlight_wait",
+    "label": {
+      "en": "LCD backlight"
+    },
+    "type": "number",
+    "units": {
+      "en": "%"
+    },
+    "min": 1,
+    "max": 100,
+    "value": 10
+  },
+  {
+    "id": "auto_time",
+    "type": "dropdown",
+    "value": "false",
+    "label": {
+      "en": "Auto Time"
+    },
+    "values": [
+      {
+        "id": "false",
+        "label": {
+          "en": "OFF"
+        }
+      },
+      {
+        "id": "true",
+        "label": {
+          "en": "ON"
+        }
+      }
+    ]
+  },
+  {
+    "id": "countdown_set",
+    "type": "dropdown",
+    "value": "0",
+    "label": {
+      "en": "Countdown Set"
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "Cancel"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "5min"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "10min"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "15min"
+        }
+      },
+      {
+        "id": "4",
+        "label": {
+          "en": "20min"
+        }
+      },
+      {
+        "id": "5",
+        "label": {
+          "en": "25min"
+        }
+      },
+      {
+        "id": "6",
+        "label": {
+          "en": "30min"
+        }
+      },
+      {
+        "id": "7",
+        "label": {
+          "en": "35min"
+        }
+      },
+      {
+        "id": "8",
+        "label": {
+          "en": "40min"
+        }
+      },
+      {
+        "id": "9",
+        "label": {
+          "en": "45min"
+        }
+      },
+      {
+        "id": "10",
+        "label": {
+          "en": "50min"
+        }
+      },
+      {
+        "id": "11",
+        "label": {
+          "en": "55min"
+        }
+      },
+      {
+        "id": "12",
+        "label": {
+          "en": "60min"
+        }
+      },
+      {
+        "id": "13",
+        "label": {
+          "en": "65min"
+        }
+      },
+      {
+        "id": "14",
+        "label": {
+          "en": "70min"
+        }
+      },
+      {
+        "id": "15",
+        "label": {
+          "en": "75min"
+        }
+      },
+      {
+        "id": "16",
+        "label": {
+          "en": "80min"
+        }
+      },
+      {
+        "id": "17",
+        "label": {
+          "en": "85min"
+        }
+      },
+      {
+        "id": "18",
+        "label": {
+          "en": "90min"
+        }
+      },
+      {
+        "id": "19",
+        "label": {
+          "en": "95min"
+        }
+      },
+      {
+        "id": "20",
+        "label": {
+          "en": "100min"
+        }
+      },
+      {
+        "id": "21",
+        "label": {
+          "en": "105min"
+        }
+      },
+      {
+        "id": "22",
+        "label": {
+          "en": "110min"
+        }
+      },
+      {
+        "id": "23",
+        "label": {
+          "en": "115min"
+        }
+      },
+      {
+        "id": "24",
+        "label": {
+          "en": "120min"
+        }
+      }
+    ]
+  },
+  {
+    "id": "countdown_left",
+    "type": "label",
+    "label": {
+      "en": "Countdown Left"
+    },
+    "value": "0"
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Vacation"
+    },
+    "children": [
+      {
+        "id": "vacation_mode",
+        "type": "dropdown",
+        "value": "false",
+        "label": {
+          "en": "Vacation Mode"
+        },
+        "values": [
+          {
+            "id": "false",
+            "label": {
+              "en": "OFF"
+            }
+          },
+          {
+            "id": "true",
+            "label": {
+              "en": "ON"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vacation_start_date",
+        "type": "text",
+        "value": "1970-01-01",
+        "label": {
+          "en": "Vacation Start Date"
+        },
+        "hint": {
+          "en": "format: Year-Month-Day. example: 1970-01-01"
+        }
+      },
+      {
+        "id": "vacation_end_date",
+        "type": "text",
+        "value": "1970-01-01",
+        "label": {
+          "en": "Vacation End Date"
+        },
+        "hint": {
+          "en": "format: Year-Month-Day. example: 1970-01-01"
+        }
+      },
+      {
+        "id": "holiday_temp_set",
+        "label": {
+          "en": "Holiday temperature setting"
+        },
+        "type": "number",
+        "units": {
+          "en": "°C"
+        },
+        "min": 5,
+        "max": 40,
+        "value": 20
+      },
+      {
+        "id": "holiday_temp_set_f",
+        "label": {
+          "en": "Holiday Fahrenheit setting"
+        },
+        "type": "number",
+        "value": 50,
+        "units": {
+          "en": "°F"
+        },
+        "min": 41,
+        "max": 104
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Window"
+    },
+    "children": [
+      {
+        "id": "window_check",
+        "label": {
+          "en": "Window check"
+        },
+        "type": "checkbox",
+        "value": false
+      }
+    ]
+  },
+
+  {
+    "id": "screenOnTime",
+    "type": "dropdown",
+    "value": "0",
+    "label": {
+      "en": "Screen On Time"
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "Permanent"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "10s"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "30s"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "60s"
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "humidity_offset",
+    "type": "number",
+    "label": {
+      "en": "Humidity offset (%)",
+      "nl": "Luchtvochtigheids compensatie (%)"
+    },
+    "hint": {
+      "en": "Set a correction to compensate a humidity offset.\nRange: -10 - 10, step size 1, \ndefault: 0 [%]",
+      "nl": "Stel een correctiewaarde in om een Luchtvochtigheids verschil te compenseren.\nBereik: -10 - 10, stap grootte 1, \nstandaard: 0 [%]"
+    },
+    "value": 0,
+    "attr": {
+      "min": -10,
+      "max": 10,
+      "step": 1
+    },
+    "units": {
+      "en": "%",
+      "nl": "%"
+    }
+  },
+
+  {
+    "id": "humidity_decimals",
+    "type": "radio",
+    "label": {
+      "en": "Humidity reporting"
+    },
+    "value": "1",
+    "values": [
+      {
+        "id": "1",
+        "label": {
+          "en": "1 decimal(e.g. 65.3 %)"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "2 decimals(e.g. 65.34 %)"
+        }
+      }
+    ]
+  }
+
+]

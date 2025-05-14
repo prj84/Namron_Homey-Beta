@@ -1,0 +1,254 @@
+{
+    "triggers": [
+        {
+            "id": "Temperature_1_NTC_sensor_changed",
+            "title": {
+                "en": "Temperature NTC1 sensor changed"
+            }
+        },
+        {
+            "id": "Temperature_2_NTC_sensor_changed",
+            "title": {
+                "en": "Temperature NTC2 sensor changed"
+            }
+        },
+        {
+            "id": "Set_NTC1_Temperature",
+            "title": {
+                "en": "NTC1 Temperature alarm triggered"
+            },
+            "titleFormatted": {
+                "en": "NTC1 temperature alarm is [[compare]] than [[number]]°c"
+            },
+            "hint": {
+                "en": "The minimum value is 0 and the maximum value is 100"
+            },
+            "args": [
+                {
+                    "name": "compare",
+                    "title": {
+                        "en": "Compare"
+                    },
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "greater",
+                            "label": {
+                                "en": "greater"
+                            }
+                        },
+                        {
+                            "id": "less",
+                            "label": {
+                                "en": "less"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "number",
+                    "type": "number",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "title": {
+                        "en": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Set_NTC2_Temperature",
+            "title": {
+                "en": "NTC2 Temperature alarm triggered"
+            },
+            "titleFormatted": {
+                "en": "NTC2 temperature alarm is [[compare]] than [[number]]°c"
+            },
+            "hint": {
+                "en": "The minimum value is 0 and the maximum value is 100"
+            },
+            "args": [
+                {
+                    "name": "compare",
+                    "title": {
+                        "en": "Compare"
+                    },
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "greater",
+                            "label": {
+                                "en": "greater"
+                            }
+                        },
+                        {
+                            "id": "less",
+                            "label": {
+                                "en": "less"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "number",
+                    "type": "number",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "title": {
+                        "en": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Water_sensor_triggered",
+            "title": {
+                "en": "Water sensor triggered"
+            },
+            "hint": {
+                "en": "Water sensor triggered"
+            }
+        },
+        {
+            "id": "If_Water_Alarm",
+            "title": {
+                "en": "If Water Alarm"
+            },
+            "hint": {
+                "en": "If Water Alarm"
+            }
+        },
+        {
+            "id": "If_No_Water_Alarm",
+            "title": {
+                "en": "If No Water Alarm"
+            },
+            "hint": {
+                "en": "If No Water Alarm"
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "id": "Set_NTC1_Temperature_Condition",
+            "title": {
+                "en": "NTC1 Temperature alarm triggered"
+            },
+            "titleFormatted": {
+                "en": "NTC1 temperature alarm is [[compare]] than [[number]]°c"
+            },
+            "hint": {
+                "en": "The minimum value is 0 and the maximum value is 100"
+            },
+            "args": [
+                {
+                    "name": "compare",
+                    "title": {
+                        "en": "Compare"
+                    },
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "greater",
+                            "label": {
+                                "en": "greater"
+                            }
+                        },
+                        {
+                            "id": "less",
+                            "label": {
+                                "en": "less"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "number",
+                    "type": "number",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "title": {
+                        "en": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Set_NTC2_Temperature_Condition",
+            "title": {
+                "en": "NTC2 Temperature alarm triggered"
+            },
+            "titleFormatted": {
+                "en": "NTC2 temperature alarm is [[compare]] than [[number]]°c"
+            },
+            "hint": {
+                "en": "The minimum value is 0 and the maximum value is 100"
+            },
+            "args": [
+                {
+                    "name": "compare",
+                    "title": {
+                        "en": "Compare"
+                    },
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "greater",
+                            "label": {
+                                "en": "greater"
+                            }
+                        },
+                        {
+                            "id": "less",
+                            "label": {
+                                "en": "less"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "number",
+                    "type": "number",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "title": {
+                        "en": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "id": "Turn_on_water_alarm",
+            "title": {
+                "en": "Turn ON Water alarm"
+            },
+            "hint": {
+                "en": "Turn ON Water alarm"
+            }
+        },
+        {
+            "id": "Turn_off_water_alarm",
+            "title": {
+                "en": "Turn Off Water alarm"
+            },
+            "hint": {
+                "en": "Turn Off Water alarm"
+            }
+        },
+        {
+            "id": "Reset_condition_alarm",
+            "title": {
+                "en": "Reset Condition Alarm"
+            },
+            "hint": {
+                "en": "Reset Condition Alarm"
+            }
+        }
+    ]
+}

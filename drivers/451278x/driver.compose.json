@@ -1,0 +1,133 @@
+{
+  "id": "4512783",
+  "name": {
+    "en": "4512783/84 - Zigbee Thermostat"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "Shyugj",
+      "HZC",
+      "Namron",
+      "Namron AS"
+    ],
+    "productId": [
+      "T11_ZG",
+      "4512783",
+      "4512784"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          28,
+          30,
+          25,
+          513,
+          516,
+          1029,
+          2820,
+          1794,
+          32772,
+          32774,
+          32797
+        ],
+        "bindings": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          28,
+          30,
+          1029,
+          1794,
+          2820,
+          32772,
+          32774,
+          32775,
+          513,
+          516,
+          32797
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To active pairing please long press the knob for 5s enter the setting menu find Zigbee setup and press the knob to start pairing."
+      }
+    }
+  },
+  "class": "thermostat",
+  "images": {
+    "small": "/drivers/451278x/assets/images/small.png",
+    "large": "/drivers/451278x/assets/images/large.png",
+    "xlarge": "/drivers/451278x/assets/images/xlarge.png"
+  },
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power",
+    "t7e_zg_window_state",
+    "child_lock",
+    "target_temperature",
+    "measure_temperature",
+    "measure_humidity",
+    "eco_mode",
+    "frost",
+    "t11_zg_regulator_percentage"
+  ],
+  "energy": {
+    "approximation": {
+      "usageOn": 5,
+      "usageOff": 1
+    }
+  },
+  "capabilitiesOptions": {
+    "target_temperature": {
+      "min": 5,
+      "max": 40,
+      "step": 0.5,
+      "units": {
+        "en": "°C"
+      }
+    },
+    "button.calibrate": {
+      "maintenanceAction": false,
+      "title": {
+        "en": "Start calibration"
+      },
+      "desc": {
+        "en": "Start the sensor calibration process."
+      }
+    },
+    "button.reset_meter": {
+      "maintenanceAction": false,
+      "title": {
+        "en": "Reset power meter"
+      },
+      "desc": {
+        "en": "Reset the accumulated power usage (kWh), this can not be restored."
+      }
+    },
+    "measure_power": {
+      "approximated": true
+    }
+  },
+  "connectivity": [
+    "zigbee"
+  ],
+  "platforms": [
+    "local",
+    "cloud"
+  ]
+}

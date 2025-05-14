@@ -1,0 +1,33 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Sensor type",
+    "no": "Sensor type"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "0",
+      "title": {
+        "en": "Air sensor",
+        "no": "Luftføler / Intern"
+      }
+    },
+    {
+      "id": "1",
+      "title": {
+        "en": "Floor sensor",
+        "no": "Gulvføler / Ekstern"
+      }
+    },
+    {
+      "id": "2",
+      "title": {
+        "en": "Max guard",
+        "no": "Maksvokter"
+      }
+    }
+  ]
+}

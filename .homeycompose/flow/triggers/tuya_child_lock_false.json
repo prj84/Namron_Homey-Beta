@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Thermostat child lock deactivated",
+    "no": "Termostat barnesikring deaktivert"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    }
+  ]
+}

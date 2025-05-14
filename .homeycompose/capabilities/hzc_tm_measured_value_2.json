@@ -1,0 +1,17 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Measured 2" 
+  },
+  "desc": {
+    "en": "Temperature measured value 2" 
+  }, 
+  "units": {
+    "en": "°C"
+  },
+  "getable": true,
+  "setable": false, 
+  "uiComponent": "sensor",
+  "icon": "/assets/temperature_icon.svg",
+  "labledecimals": 10
+} 

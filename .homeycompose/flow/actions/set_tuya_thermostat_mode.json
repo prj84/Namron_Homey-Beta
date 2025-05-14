@@ -1,0 +1,48 @@
+{
+  "title": {
+    "en": "Change thermostat mode",
+    "no": "Endre termostatmodus"
+  },
+  "titleFormatted": {
+    "en": "Set mode to [[mode]]",
+    "no": "Sett modus til [[mode]]"
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=thermostat|thermostat_pm"
+    },
+    {
+      "name": "mode",
+      "type": "dropdown",
+      "title": {
+        "en": "Thermostat mode",
+        "no": "Termostat modus"
+      },
+      "values": [
+        {
+          "id": "0",
+          "label": {
+            "en": "Manual",
+            "no": "Manuell"
+          }
+        },
+        {
+          "id": "1",
+          "label": {
+            "en": "Home",
+            "no": "Hjemme"
+          }
+        },
+        {
+          "id": "2",
+          "label": {
+            "en": "Away",
+            "no": "Bortreist"
+          }
+        }
+      ]
+    }
+  ]
+}

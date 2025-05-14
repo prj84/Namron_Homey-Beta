@@ -1,0 +1,15 @@
+{
+  "type": "number",
+  "title": { "en": "My target temperature" },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "thermostat",
+  "uiQuickAction": false,
+  "min": 10,
+  "max": 90,
+  "step": 10,
+  "decimals": 20,
+  "units": {
+    "en": "%"
+  }
+}

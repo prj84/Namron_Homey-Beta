@@ -1,0 +1,1289 @@
+{
+  "triggers": [
+    {
+      "title": {
+        "en": "Brightness button is pressed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] brightness [[type]] button is [[mode]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "type",
+          "title": "Button type",
+          "values": [
+            {
+              "id": "up",
+              "label": {
+                "en": "up"
+              }
+            },
+            {
+              "id": "down",
+              "label": {
+                "en": "down"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_brightness_button_type_mode_g4"
+    },
+    {
+      "title": {
+        "en": "Hue changed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] hue changed"
+      },
+      "hint": "The hue range from 0.00 to 1.00",
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "hue",
+          "type": "number",
+          "title": {
+            "en": "Hue"
+          }
+        }
+      ],
+      "id": "sr_hue_moved_g4"
+    },
+    {
+      "title": {
+        "en": "Saturation button is pressed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] saturation button is [[mode]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "up",
+              "label": {
+                "en": "held down and decreasing"
+              }
+            },
+            {
+              "id": "down",
+              "label": {
+                "en": "held down and decreasing"
+              }
+            },
+            {
+              "id": "stop",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_saturation_button_mode_g4"
+    },
+    {
+      "title": {
+        "en": "Scene button is pressed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] scene button [[scene]] is [[mode]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        },
+        {
+          "name": "scene",
+          "type": "dropdown",
+          "title": "Scene button",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "S1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "S2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "S3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "S4"
+              }
+            },
+            {
+              "id": "5",
+              "label": {
+                "en": "S5"
+              }
+            },
+            {
+              "id": "6",
+              "label": {
+                "en": "S6"
+              }
+            },
+            {
+              "id": "7",
+              "label": {
+                "en": "S7"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_scene_button_mode_g4_s7"
+    },
+    {
+      "title": {
+        "en": "Switch button is pressed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] switch button is [[mode]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "on",
+              "label": {
+                "en": "turned on"
+              }
+            },
+            {
+              "id": "off",
+              "label": {
+                "en": "turned off"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_switch_button_on_off_g4"
+    },
+    {
+      "title": {
+        "en": "White button is pressed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] [[type]] button is [[mode]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "type",
+          "title": "Button type",
+          "values": [
+            {
+              "id": "warmer",
+              "label": {
+                "en": "warmer"
+              }
+            },
+            {
+              "id": "cooler",
+              "label": {
+                "en": "cooler"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "mode",
+          "title": "Mode",
+          "values": [
+            {
+              "id": "pressed",
+              "label": {
+                "en": "pressed"
+              }
+            },
+            {
+              "id": "held_down",
+              "label": {
+                "en": "held down"
+              }
+            },
+            {
+              "id": "released",
+              "label": {
+                "en": "released"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sr_white_button_type_mode_g4"
+    },
+    {
+      "title": {
+        "en": "White balance changed"
+      },
+      "titleFormatted": {
+        "en": "[[group]] white balance changed"
+      },
+      "hint": "The white range from 0.00 to 1.00, 0.00 for coolest white, 1.00 for warmest white.",
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "white",
+          "type": "number",
+          "title": {
+            "en": "White"
+          }
+        }
+      ],
+      "id": "sr_white_moved_g4"
+    },
+    {
+      "id": "4512706_on",
+      "title": {
+        "en": "On"
+      },
+      "titleFormatted": {
+        "en": "[[group]] on"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512706_off",
+      "title": {
+        "en": "Off"
+      },
+      "titleFormatted": {
+        "en": "[[group]] off"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512706_move_to_hue",
+      "title": {
+        "en": "Move to hue"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move to hue"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "hue",
+          "type": "number",
+          "title": {
+            "en": "Hue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_move_to_saturation",
+      "title": {
+        "en": "Move to saturation"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move to saturation"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "saturation",
+          "type": "number",
+          "title": {
+            "en": "Saturation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_move_saturation",
+      "title": {
+        "en": "Move saturation"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move saturation"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "titleFormatted": {
+        "en": "[[group]] recall scene"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "titleFormatted": {
+        "en": "[[group]] store scene"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_level_step_with_onoff",
+      "title": {
+        "en": "Step level"
+      },
+      "titleFormatted": {
+        "en": "[[group]] step level"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "mode",
+          "type": "number",
+          "title": {
+            "en": "Mode"
+          }
+        },
+        {
+          "name": "step_size",
+          "type": "number",
+          "title": {
+            "en": "Step size"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_level_move_with_onoff",
+      "title": {
+        "en": "Move level"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move level"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level"
+      },
+      "titleFormatted": {
+        "en": "[[group]] stop level"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4512706_step_color_temperature",
+      "title": {
+        "en": "Step color temperature"
+      },
+      "titleFormatted": {
+        "en": "[[group]] step color temperature"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "step_mode",
+          "type": "number",
+          "title": {
+            "en": "Step mode"
+          }
+        },
+        {
+          "name": "step_size",
+          "type": "number",
+          "title": {
+            "en": "Step size"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_move_to_color_temperature",
+      "title": {
+        "en": "Move to color temperature"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move to color temperature"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "color_temperature",
+          "type": "number",
+          "title": {
+            "en": "Color temperature"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_move_color_temperature",
+      "title": {
+        "en": "Move color temperature"
+      },
+      "titleFormatted": {
+        "en": "[[group]] move color temperature"
+      },
+      "deprecated": true,
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4512706_stop_move_step",
+      "title": {
+        "en": "Stop move step"
+      },
+      "titleFormatted": {
+        "en": "[[group]] stop move step"
+      },
+      "deprecated": true,
+      "hint": {
+        "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": "Group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

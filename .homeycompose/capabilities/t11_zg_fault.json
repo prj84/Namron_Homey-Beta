@@ -1,0 +1,67 @@
+{
+  "type": "enum",
+  "title": { "en": "Fault" },
+  "desc": {
+    "en": "Fault"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/info.svg",
+  "values": [
+    {
+      "id" : "0",
+      "title":{
+        "en": " - "
+      }
+    },
+    {
+      "id" : "er0",
+      "title":{
+        "en": "power faults"
+      }
+    },
+    {
+      "id": "er1",
+      "title": {
+        "en": "other faults"
+      }
+    },
+    {
+      "id": "er2",
+      "title": {
+        "en": "module fault"
+      }
+    },
+    {
+      "id": "er3",
+      "title": {
+        "en": "internal sensor fault"
+      }
+    },
+    {
+      "id": "er4",
+      "title" :{
+        "en": "floor sensor fault"
+      }
+    },
+    {
+      "id": "er5",
+      "title" :{
+        "en": "external sensor fault"
+      }
+    },
+    {
+      "id":"er6",
+      "title":{
+        "en":"over heating"
+      }
+    },
+    {
+      "id" : "er7",
+      "title":{
+        "en":"over load"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": {
+    "en": "4512743 - Z-Wave LED Controller"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "setOnDim": false
+    },
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    }
+  },
+  "icon": "/drivers/4512743/assets/icon.svg",
+  "images": {
+    "large": "/drivers/4512743/assets/images/large.png",
+    "small": "/drivers/4512743/assets/images/small.png"
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "zwave": {
+    "security": [
+      "none"
+    ],
+    "manufacturerId": [
+      816,
+      1080
+    ],
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53250
+    ],
+    "learnmode": {
+      "image": "/drivers/4512743/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button 3 times quickly.\n\nIf pairing fails reset the device by pressing the Reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  }
+}

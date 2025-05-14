@@ -1,0 +1,26 @@
+
+{
+    "name": { "en": "Namron Matter WiFi E27 RGBW LED Bulb",
+              "no": "Namron Matter WiFi E27 RGBW LED pære",
+              "se": "Namron Matter WiFi E27 RGBW LED lampa"  
+    },
+    "platforms": ["local"],
+    "connectivity": ["matter"], 
+    "class": "light",
+    "capabilities": ["onoff", "dim", "light_temperature", "light_hue", "light_mode", "light_saturation"],
+    "matter": {
+      "vendorId": 4456,
+      "productId": 1008,
+      "learnmode": {
+        "instruction": { "en": "Scan the Matter QR Code on the LED Bulb. The device will be added automatically. \n\n Reset the device: Turn the device on/off 6 times with 0,5-1 sec intervals. The bulb will do a color loop to confirm the reset.",
+                         "no": "Skann Matter QR-koden på LED-pæren. Enheten vil bli lagt til automatisk. \n\n Tilbakestill enheten: Slå enheten av/på 6 ganger med 0,5-1 sekunders intervaller. Pæren vil gjøre en fargeløkke for å bekrefte tilbakestillingen.",
+                         "se": "Skanna Matter QR-koden på LED-lampan. Enheten läggs till automatiskt. \n\n Återställ enheten: Slå på/av enheten 6 gånger med 0,5-1 sekunders intervaller. Lampan kommer att göra en färgloop för att bekräfta återställningen."
+    },
+        "image": "/drivers/<driver_id>/assets/learnmode.svg"
+      }
+    },
+    "images": {
+        "small": "/drivers/3802969/assets/images/small.png",
+        "large": "/drivers/3802969/assets/images/large.png"
+    }
+  }

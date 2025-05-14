@@ -1,0 +1,61 @@
+{
+  "actions": [
+    {
+      "title": {
+        "en": "Start dim change"
+      },
+      "titleFormatted": {
+        "en": "[[mode]] dim in [[duration]]"
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "mode",
+          "type": "dropdown",
+          "title": {
+            "en": "Mode"
+          },
+          "values": [
+            {
+              "id": "up",
+              "label": {
+                "en": "Increase"
+              }
+            },
+            {
+              "id": "down",
+              "label": {
+                "en": "Decrease"
+              }
+            }
+          ]
+        },
+        {
+          "name": "duration",
+          "type": "range",
+          "title": {
+            "en": "Change duration"
+          },
+          "min": 1,
+          "max": 127,
+          "step": 1,
+          "label": " seconds",
+          "labelMultiplier": 1,
+          "labelDecimals": 0
+        }
+      ],
+      "id": "sr_zw_start_dim_change_v4"
+    },
+    {
+      "title": {
+        "en": "Stop dim change"
+      },
+      "titleFormatted": {
+        "en": "Stop dim change"
+      },
+      "duration": false,
+      "args": [],
+      "id": "sr_zw_stop_dim_change"
+    }
+  ]
+}
